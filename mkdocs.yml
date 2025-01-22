@@ -2,7 +2,7 @@ site_name: OIXIO Digital Business Central Applications Documentation
 theme:
   name: material
   features:
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.sections
     - toc.integrate
     - navigation.top
@@ -33,6 +33,15 @@ plugins:
       languages:
         en: English
         et: Eesti keel
+      translate_nav:
+        en:
+          extensions: "Extensions"
+          bank_link: "Bank Link"
+          home: "Home"
+        et:
+          extensions: "Laiendused"
+          bank_link: "Pangaliides"
+          home: "Pealeht"
 
 extra:
   alternate:
@@ -64,5 +73,5 @@ copyright: |
   &copy; 2025 <a href="https://oixio.eu/digital/"  target="_blank" rel="noopener">OIXIO Digital AS</a>
 
 nav:
-  - index.md
-  - index.en.md
+  - bank_link: banklink/banklink_index.et.md
+  - bank_link: banklink/banklink_index.en.md
