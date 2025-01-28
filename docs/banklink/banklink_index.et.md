@@ -73,11 +73,11 @@ Coop Pank juhend:\
 
 Ava Business Centralis Pangaliidese seaded ning vali liidestatav pank Panga kanalid blokist. Seadistatavad väljad on pankadel erinevad.
 
-![A screenshot of a computer Description automatically generated]
+![Conf Bank Interface][13]
 
 **SWED SGW** puhul täida Lepingu ID, API võti (Kliendi ID), Parool väljad ning seejärel lae üles sertifikaat kasutades menüüribal nuppu Lisa sertifikaat:
 
-![A screenshot of a computer Description automatically generated][1]
+![SWED SGW configuration example][1]
 
 **SEB BGW** puhul täida lepingu ID väli ja lisa sertifikaat.
 
@@ -89,7 +89,7 @@ Ava Business Centralis Pangaliidese seaded ning vali liidestatav pank Panga kana
 
 Ava Pangakontod loend ning ava liidestatava pangakonto kaart, täida OIXIO Pangaliides blokis Panga kanal:
 
-![A screenshot of a computer Description automatically generated][2]
+[Bank account configuration example][2]
 
 Pangakonto kaardil peavad olema täidetud järgmised väljad:
 
@@ -109,25 +109,25 @@ Pangakonto kaardil peavad olema täidetud järgmised väljad:
 
 Pane vastava panga tööjärjekorra kanded valmis olekusse.
 
-![A screenshot of a computer Description automatically generated][3]
+![Queue entry example][3]
 
 ## Maksete eksportimine panka
 
 Maksežurnaali töölehel tuleb märkida Luba maksete eksporti, et saaks maksefaili panka saata ja Kontrolli makse staatuseid enne konteerimist, et konteerimisel toimuks kontroll, kas mõni makse on tühistatud.
 
-![A screenshot of a computer Description automatically generated][4]
+![Payment Journal example][4]
 
 Täida maksežurnaal sooritatavate maksetega kas käsitsi või soovitades makseid hankijale.
 
 Maksefaili panka saatmiseks vali menüüribalt Pank -- Saada Panka...
 
-![A screenshot of a computer Description automatically generated][5]
+![Send to Bank example][5]
 
 Maksed liiguvad panka kinnitamata olekus. Need tuleb pangas eraldi kinnitada ja sooritada tehingud.
 
 Pärast maksefaili panka saatmist ilmub mõne aja pärast maksežurnaali factboxi info makse oleku kohta:
 
-![A screenshot of a computer Description automatically generated][6]
+![Payment status example][6]
 
 Makse olek näitab, mis seisus makse pangas on.
 
@@ -159,11 +159,11 @@ Tagasi lükatud -- makse impordifaili kontroll ei olnud edukas (SEB)
 
 Maksete sobitamise žurnaalis vali Pangaliidese maksete importimine:
 
-![][7]
+![Import Payments example][7]
 
 Avanevas aknas vali, millise panga millist väljavõtte tüüpi soovid importida:
 
-![A screenshot of a computer Description automatically generated][8]
+![Statement type selection][8]
 
 **Päevalõpu väljavõte** -- saad määrata ainult lõppkuupäeva. BC-sse päritakse kõik selleks kuupäevaks importimata pangatehingud.
 
@@ -173,7 +173,7 @@ Avanevas aknas vali, millise panga millist väljavõtte tüüpi soovid importida
 
 Pärast filtrite määramist tuleb teade:
 
-![A white background with black text Description automatically generated]
+![Import query notification][14]
 
 See tähendab, et päring on panga saadetud ja läheb natukene aega enne kui pangaväljavõte BC-sse ilmub. SEB väljavõte tekib kohe.
 
@@ -185,23 +185,23 @@ Mine Tööjärjekorra kanded ja vajuta Uus
 
 Täida Käivitatava objekti liik Aruanne ja Käivitatava objekti ID 79901, Varaseim alustamise kuup/kl:
 
-![A screenshot of a computer Description automatically generated][9]
+![Queue entry configuration example][9]
 
 Varaseim alustamise kuup/kl täida sellega, millal soovid, et eelmise päeva väljavõte BC-sse päritakse.
 
 Seejärel vajuta sisse marker Aruande päringuakna valikud:
 
-![A screenshot of a computer Description automatically generated][10]
+![Report request options example][10]
 
 Avaneb sama vaade, mis maksete sobitamise žurnaalis Pangaliidese maksete importimine nupu vajutamisel.
 
 Täida Pank, mille väljavõtet automaatselt importida soovid ja Väljavõtte tüüp lahtrist vali Päevalõpu väljavõte. Algkuupäev ja Lõppkuupäev väljad jäta tühjaks.
 
-![A screenshot of a computer Description automatically generated][11]
+![Automatic import configuration example][11]
 
 Täida Korduvus blokis, mis päeviti päring teostatakse ja Minutite arv käivitamise vahel määra 1440, et kord päevas toimuks pangaväljavõtte päring:
 
-![A screenshot of a computer Description automatically generated][12]
+![Recurrence settings example][12]
 
 Iga pangakonto kohta tuleb teha eraldi tööjärjekorra kanne.
 
@@ -217,3 +217,5 @@ Iga pangakonto kohta tuleb teha eraldi tööjärjekorra kanne.
   [10]: ./media/image12.png
   [11]: ./media/image13.png
   [12]: ./media/image14.png
+  [13]: ./media/image1.png
+  [14]: ./media/image10.png
