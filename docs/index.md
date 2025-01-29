@@ -1,5 +1,3 @@
-# Eestikeelne pealeht
-
-## Laiendused
+# Laiendused
 
 [Pangaliides](banklink/banklink_index.et.md)
