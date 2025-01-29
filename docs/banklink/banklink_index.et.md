@@ -89,7 +89,7 @@ Ava Business Centralis Pangaliidese seaded ning vali liidestatav pank Panga kana
 
 Ava Pangakontod loend ning ava liidestatava pangakonto kaart, täida OIXIO Pangaliides blokis Panga kanal:
 
-[Bank account configuration example][2]
+![Bank account configuration example][2]
 
 Pangakonto kaardil peavad olema täidetud järgmised väljad:
 
