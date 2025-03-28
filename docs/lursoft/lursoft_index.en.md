@@ -12,8 +12,11 @@ To start the service, it is necessary to sign a contract with the database admin
 
 Contacts: 
 **SIA "LURSOFT IT"**
+
 Matīsa street 8, Rīga, LV-1001
-[www.lursoft.lv]
+
+https://www.lursoft.lv/
+
 [mailto:info@lursoft.lv]
 
 ## Setup
