@@ -17,7 +17,7 @@ Matīsa street 8, Rīga, LV-1001
 
 https://www.lursoft.lv/
 
-[mailto:info@lursoft.lv]
+<info@lursoft.lv>
 
 ## Setup
 
