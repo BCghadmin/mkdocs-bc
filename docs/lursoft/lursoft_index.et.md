@@ -10,9 +10,12 @@ Lursoft liidese kaudu on võimalik Dynamics 365 Business Central-sse, klientide 
 
 Teenuse käivitamiseks on vajalik sõlmida leping andmebaasi haldajaga, kontaktid:
 
-**SIA"LURSOFT IT**\
-Matīsa street 8, Rīga, LV-1001\
-[www.lursoft.lv]\
+**SIA"LURSOFT IT**
+
+Matīsa street 8, Rīga, LV-1001
+
+https://www.lursoft.lv/
+
 <info@lursoft.lv>
 
 ## Seadistus
@@ -41,7 +44,7 @@ Uue hankija loomisel
 
 ![][2]
 
--   avanevas aknas sisesta „Otsitav nimi" (ei pea olema täpne) või „Otsitav Reg. Nr." ning täida „Otsitav Regioon „riigi nimega kuskohas otsitav ettevõte asub.
+-   avanevas aknas sisesta „Otsitav nimi" (ei pea olema täpne) või „Otsitav Reg. Nr." ning täida „Otsitav Regioon" riigi nimega kuskohas otsitav ettevõte asub.
 
 -   Vasakul „Äriregister" blokis kuvatakse registrist saadud andmed
 
