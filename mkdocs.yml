@@ -42,6 +42,7 @@ plugins:
           extensions: "Laiendused"
           bank_link: "Pangaliides"
           home: "Pealeht"
+          Doc_links: "Dokumendi lingid"
 
 extra:
   alternate:
@@ -77,3 +78,4 @@ nav:
   - bank_link: banklink/banklink_index.en.md
   - Lursoft: lursoft/lursoft_index.en.md
   - Lursoft: lursoft/lursoft_index.et.md
+  - Doc_links: doc_links/doclinks_index.et.md
