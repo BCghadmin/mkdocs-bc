@@ -1,5 +1,3 @@
-## Lursoft liides
-
 Lursoft liidese kaudu on võimalik Dynamics 365 Business Central-sse, klientide ja hankijate andmetesse importida Lursoft ettevõtete andmebaasist Eesti, Läti ja Leedu ettevõtete rekvisiite:
 
 -   Ettevõtte nimetus
@@ -13,12 +11,14 @@ Lursoft liidese kaudu on võimalik Dynamics 365 Business Central-sse, klientide 
 Teenuse käivitamiseks on vajalik sõlmida leping andmebaasi haldajaga, kontaktid:
 
 **SIA"LURSOFT IT**
+
 Matīsa street 8, Rīga, LV-1001
+
 [www.lursoft.lv]
 
 <info@lursoft.lv>
 
-**Seadistus**
+***Seadistus***
 
 Lehel „Lursoft Äriregistri Seaded" tuleb täita ühenduseks vajalikud väljad.
 
@@ -69,6 +69,7 @@ Olemasoleva hankija andmete kontroll.
 **Kliendi andmete päring**
 
 Toimub analoogselt hankijaga aga kliendikaardilt.
+
 
   [www.lursoft.lv]: http://www.lursoft.lv/
   [1]: ./media/image1.et.png
