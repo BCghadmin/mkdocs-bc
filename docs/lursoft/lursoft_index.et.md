@@ -34,7 +34,7 @@ Peale seadistuste tegemist saab ühendust testida klikkides „Testi ühendust".
 
 Avanevas aknas „Lursoft Äriregistri Päring" saab lisada otsitava ettevõtte nime või Reg. Nr. ning Otsitava riigi. Kui ühendus on olemas, siis imporditud andmed kuvatakse vasakpoolses „Äriregister" blokis.
 
-**Hankija andmete päring**
+***Hankija andmete päring***
 
 Uue hankija loomisel
 
@@ -66,7 +66,7 @@ Olemasoleva hankija andmete kontroll.
 
 -   kuvatakse registri andmed ja saad neid kontrollida BC olevate andmetega ning vajadusel kopeerida „kolme tärniga kastil" klikkides kas ükshaaval või kõik korraga.
 
-**Kliendi andmete päring**
+***Kliendi andmete päring***
 
 Toimub analoogselt hankijaga aga kliendikaardilt.
 
