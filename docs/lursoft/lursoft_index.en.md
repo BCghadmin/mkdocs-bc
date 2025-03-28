@@ -31,7 +31,7 @@ On the "Lursoft Business Register Setup" page, fill in the fields required for t
 
 ![][1]
 
-After the setup is done you can also test the connection by clicking "Test Connection." In the opening window "Lursoft Business Register Query," you can add the name or Reg. No. of the company you are looking for and the country you are looking for. If the connection is available, the imported data will be displayed in the left Business Register block.
+After the setup is done you can also test the connection by clicking "Test Connection". In the opening window "Lursoft Business Register Query", you can add the name or Reg. No. of the company you are looking for and the country you are looking for. If the connection is available, the imported data will be displayed in the left Business Register block.
 
 ![][2]
 
@@ -47,7 +47,7 @@ When creating a new vendor:
 
 -   The data obtained from the register will be displayed in the left "Business Register" block.
 
--   By clicking on the "three dots box," you can add the data to Business Central either one by one or all at once.
+-   By clicking on the "three dots box", you can add the data to Business Central either one by one or all at once.
 
 -   The data added to Business Central can be modified on the same page or later on the vendor card.
 
