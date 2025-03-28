@@ -12,7 +12,7 @@ Lursoft liidese kaudu on võimalik Dynamics 365 Business Central-sse, klientide 
 
 Teenuse käivitamiseks on vajalik sõlmida leping andmebaasi haldajaga, kontaktid:
 
-**SIA"LURSOFT IT"**
+**SIA"LURSOFT IT**
 Matīsa street 8, Rīga, LV-1001
 [www.lursoft.lv]
 
@@ -22,7 +22,7 @@ Matīsa street 8, Rīga, LV-1001
 
 Lehel „Lursoft Äriregistri Seaded" tuleb täita ühenduseks vajalikud väljad.
 
--   Kohalda Vaike Väärtused -- lisatakse Lursoft Päring URL ja Ligipääsu võtme URL
+-   Kohalda Vaike Väärtused - lisatakse Lursoft Päring URL ja Ligipääsu võtme URL
 
 -   Päringu ja ligipääsu rekvisiidid saadab Lursoft peale lepingu sõlmimist
 
@@ -54,7 +54,7 @@ Uue hankija loomisel
 
 Business Centralisse lisatud andmeid saad vajadusel muuta samal lehel või hiljem hankija kaardil.
 
--   OK -- andmed lisatakse hankija kaardile.
+-   OK - andmed lisatakse hankija kaardile.
 
 Olemasoleva hankija andmete kontroll.
 
