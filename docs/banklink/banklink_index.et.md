@@ -57,7 +57,7 @@ Vajalik on:
 -   pfx/p12 faili ja parooli seadistamine BC-s.
 
 Swedbank juhend:
-<http://dev.swedbankgateway.net/content/general-info/doc/How-to-generate-CSR-and-convert-private-key-to-p12.pdf>\
+<http://dev.swedbankgateway.net/content/general-info/doc/How-to-generate-CSR-and-convert-private-key-to-p12.pdf>
 <https://www.swedbank.com/openbanking/swedbank-gateway-go-live.html>
 
 LHV juhend:
