@@ -10,7 +10,7 @@ Toetatud teenused:
 
 -   Maksete edastamine panka (allkirjastamata maksed)
 
--   Konto väljavõte -- automaatselt päritav eelmise päeva väljavõte
+-   Konto väljavõte - automaatselt päritav eelmise päeva väljavõte
 
 -   Jooksva päeva kontoväljavõtte päring
 
@@ -22,7 +22,7 @@ Toetatud teenused:
 
 -   Maksete edastamine panka (allkirjastamata maksed)
 
--   Konto väljavõte -- automaatselt päritav eelmise päeva väljavõte
+-   Konto väljavõte - automaatselt päritav eelmise päeva väljavõte
 
 ### SEB
 
@@ -42,7 +42,7 @@ Toetatud teenused:
 
 -   Maksete edastamine panka (allkirjastamata maksed)
 
--   Konto väljavõte -- automaatselt päritav eelmise päeva väljavõte
+-   Konto väljavõte - automaatselt päritav eelmise päeva väljavõte
 
 ### Turvasertifikaat
 
@@ -56,17 +56,17 @@ Vajalik on:
 
 -   pfx/p12 faili ja parooli seadistamine BC-s.
 
-Swedbank juhend:\
+Swedbank juhend:
 <http://dev.swedbankgateway.net/content/general-info/doc/How-to-generate-CSR-and-convert-private-key-to-p12.pdf>\
 <https://www.swedbank.com/openbanking/swedbank-gateway-go-live.html>
 
-LHV juhend:\
+LHV juhend:
 <https://partners.lhv.ee/en/connect/#certificates>
 
-SEB juhend:\
+SEB juhend:
 <https://developer.baltics.sebgroup.com/bgw/documentation/authentication>
 
-Coop Pank juhend:\
+Coop Pank juhend:
 <https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf>
 
 ## Pangaliidese seadistamine
@@ -119,7 +119,7 @@ Maksežurnaali töölehel tuleb märkida Luba maksete eksporti, et saaks maksefa
 
 Täida maksežurnaal sooritatavate maksetega kas käsitsi või soovitades makseid hankijale.
 
-Maksefaili panka saatmiseks vali menüüribalt Pank -- Saada Panka...
+Maksefaili panka saatmiseks vali menüüribalt Pank - Saada Panka...
 
 ![Send to Bank example][5]
 
@@ -133,25 +133,25 @@ Makse olek näitab, mis seisus makse pangas on.
 
 Võimalikud makse olekud:
 
-RJCT -- tagasi lükatud -- makse pangas tagasi lükatud
+RJCT - tagasi lükatud - makse pangas tagasi lükatud
 
-ACTC -- Ootel - ootab pangas makse kinnitamist ja sooritamist
+ACTC - Ootel - ootab pangas makse kinnitamist ja sooritamist
 
-PDNG -- Ootel - makse kinnituse ootel
+PDNG - Ootel - makse kinnituse ootel
 
 PART - Osaliselt kinnitatud -vähemalt üks makse on kinnitatud
 
-ACSP -- Kinnitatud -- makse on kinnitatud, kuid ülekanne veel tegemata
+ACSP - Kinnitatud - makse on kinnitatud, kuid ülekanne veel tegemata
 
-ACSC -- Teostatud -- makse on sooritatud
+ACSC - Teostatud - makse on sooritatud
 
-ACWC - Aktsepteeritud koos muudatusega -- tehtud mõned muudatused ja aktsepteeritud, kuid ülekanne veel tegemata
+ACWC - Aktsepteeritud koos muudatusega - tehtud mõned muudatused ja aktsepteeritud, kuid ülekanne veel tegemata
 
-Ootel -- makse impordifaili kontrollitakse (SEB)
+Ootel - makse impordifaili kontrollitakse (SEB)
 
-Faili kontroll edukas -makse impordifaili kontroll edukas (SEB)
+Faili kontroll edukas - makse impordifaili kontroll edukas (SEB)
 
-Tagasi lükatud -- makse impordifaili kontroll ei olnud edukas (SEB)
+Tagasi lükatud - makse impordifaili kontroll ei olnud edukas (SEB)
 
 ## Pangaväljavõtte import
 
@@ -165,11 +165,11 @@ Avanevas aknas vali, millise panga millist väljavõtte tüüpi soovid importida
 
 ![Statement type selection][8]
 
-**Päevalõpu väljavõte** -- saad määrata ainult lõppkuupäeva. BC-sse päritakse kõik selleks kuupäevaks importimata pangatehingud.
+**Päevalõpu väljavõte** - saad määrata ainult lõppkuupäeva. BC-sse päritakse kõik selleks kuupäevaks importimata pangatehingud.
 
-**Väljavõte** -- saad määrata perioodi, mille kohta pangaväljavõte päritakse BC-sse
+**Väljavõte** - saad määrata perioodi, mille kohta pangaväljavõte päritakse BC-sse
 
-**Päevasisene väljavõte** -- päritakse BC töökuupäeva väljavõte
+**Päevasisene väljavõte** - päritakse BC töökuupäeva väljavõte
 
 Pärast filtrite määramist tuleb teade:
 
