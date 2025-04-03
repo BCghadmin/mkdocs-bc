@@ -37,6 +37,7 @@ plugins:
         en:
           extensions: "Extensions"
           bank_link: "Bank Link"
+          Doc_links: "Document links"
           home: "Home"
         et:
           extensions: "Laiendused"
@@ -79,3 +80,4 @@ nav:
   - Lursoft: lursoft/lursoft_index.en.md
   - Lursoft: lursoft/lursoft_index.et.md
   - Doc_links: doc_links/doclinks_index.et.md
+  - Doc_links: doc_links/doclinks_index.en.md
