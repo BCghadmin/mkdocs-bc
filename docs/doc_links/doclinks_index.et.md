@@ -47,34 +47,34 @@ Loodud lahendus täiendab olemasolevat linkide lisamise võimalust dokumentidele
 
 Dokumendi loendis või dokumendil olles ava kiirinfo (factbox) paan
 
-![]
+![][1]
 
 Avaneval paanil vajuta Lingid järel olevale pluss märgile
 
-![][1]
+![][2]
 
 Avaneval lehel täida lingi aadress ning vajadusel kirjeldus. Kirjeldus väli täidetakse vaikimisi lingi aadress väljaga
 
-![][2]
-
 ![][3]
-
-OK nupu vajutamise järel kuvatakse lisatud link dokumendi ja dokumendi loendis kiirinfo paanil
 
 ![][4]
 
+OK nupu vajutamise järel kuvatakse lisatud link dokumendi ja dokumendi loendis kiirinfo paanil
+
 ![][5]
+
+![][6]
 
 Lingi avamiseks kliki kirjeldus välja tekstile.
 
 Lisatud linke saab redigeerida ja kustutada kasutades kolmepunktinupu alt vastavat valikut
 
-![][6]
+![][7]
 
-  []: ./media/image1.png
-  [1]: ./media/image2.png
-  [2]: ./media/image3.png
-  [3]: ./media/image4.png
-  [4]: ./media/image5.png
-  [5]: ./media/image6.png
-  [6]: ./media/image7.png
+  [1]: ./media/image1.png
+  [2]: ./media/image2.png
+  [3]: ./media/image3.png
+  [4]: ./media/image4.png
+  [5]: ./media/image5.png
+  [6]: ./media/image6.png
+  [7]: ./media/image7.png
