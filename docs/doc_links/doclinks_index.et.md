@@ -47,31 +47,31 @@ Loodud lahendus täiendab olemasolevat linkide lisamise võimalust dokumentidele
 
 Dokumendi loendis või dokumendil olles ava kiirinfo (factbox) paan
 
-![A screenshot of a computer AI-generated content may be incorrect.]
+![]
 
 Avaneval paanil vajuta Lingid järel olevale pluss märgile
 
-![A screenshot of a computer AI-generated content may be incorrect.][1]
+![][1]
 
 Avaneval lehel täida lingi aadress ning vajadusel kirjeldus. Kirjeldus väli täidetakse vaikimisi lingi aadress väljaga
 
-![A screenshot of a computer AI-generated content may be incorrect.][2]
+![][2]
 
-![A screenshot of a computer AI-generated content may be incorrect.][3]
+![][3]
 
 OK nupu vajutamise järel kuvatakse lisatud link dokumendi ja dokumendi loendis kiirinfo paanil
 
-![A screenshot of a computer AI-generated content may be incorrect.][4]
+![][4]
 
-![A screenshot of a computer AI-generated content may be incorrect.][5]
+![][5]
 
 Lingi avamiseks kliki kirjeldus välja tekstile.
 
 Lisatud linke saab redigeerida ja kustutada kasutades kolmepunktinupu alt vastavat valikut
 
-![A screenshot of a computer AI-generated content may be incorrect.][6]
+![][6]
 
-  [A screenshot of a computer AI-generated content may be incorrect.]: ./media/image1.png
+  []: ./media/image1.png
   [1]: ./media/image2.png
   [2]: ./media/image3.png
   [3]: ./media/image4.png
