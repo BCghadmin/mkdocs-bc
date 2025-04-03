@@ -42,13 +42,6 @@ Loodud lahendus täiendab olemasolevat linkide lisamise võimalust dokumentidele
 
 - Lõpetatud tootmistellimus
 
-## Seadistused
-
-Ostude ja ostuv. seadistuses Kopeeri märkused tellimuselt arvele
-
-Kopeeri tagastuskorralduse komment. kreeditarvele
-
-Seadistuste välja lülitamisel liigub ostutellimusele lisatud link konteeritud ostuarvele ja tagastuskorraldusele lisatud link konteeritud ostu kreeditarvele.
 
 ## Kasutamine
 
