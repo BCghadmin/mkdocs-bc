@@ -1,5 +1,3 @@
-## Lursoft liides
-
 Lursoft liidese kaudu on võimalik Dynamics 365 Business Central-sse, klientide ja hankijate andmetesse importida Lursoft ettevõtete andmebaasist Eesti, Läti ja Leedu ettevõtete rekvisiite:
 
 -   Ettevõtte nimetus
@@ -12,17 +10,19 @@ Lursoft liidese kaudu on võimalik Dynamics 365 Business Central-sse, klientide 
 
 Teenuse käivitamiseks on vajalik sõlmida leping andmebaasi haldajaga, kontaktid:
 
-**SIA"LURSOFT IT"**
+**SIA"LURSOFT IT**
+
 Matīsa street 8, Rīga, LV-1001
-[www.lursoft.lv]
+
+https://www.lursoft.lv/
 
 <info@lursoft.lv>
 
-**Seadistus**
+## Seadistus
 
 Lehel „Lursoft Äriregistri Seaded" tuleb täita ühenduseks vajalikud väljad.
 
--   Kohalda Vaike Väärtused -- lisatakse Lursoft Päring URL ja Ligipääsu võtme URL
+-   Kohalda Vaike Väärtused - lisatakse Lursoft Päring URL ja Ligipääsu võtme URL
 
 -   Päringu ja ligipääsu rekvisiidid saadab Lursoft peale lepingu sõlmimist
 
@@ -34,7 +34,7 @@ Peale seadistuste tegemist saab ühendust testida klikkides „Testi ühendust".
 
 Avanevas aknas „Lursoft Äriregistri Päring" saab lisada otsitava ettevõtte nime või Reg. Nr. ning Otsitava riigi. Kui ühendus on olemas, siis imporditud andmed kuvatakse vasakpoolses „Äriregister" blokis.
 
-**Hankija andmete päring**
+## Hankija andmete päring
 
 Uue hankija loomisel
 
@@ -44,7 +44,7 @@ Uue hankija loomisel
 
 ![][2]
 
--   avanevas aknas sisesta „Otsitav nimi" (ei pea olema täpne) või „Otsitav Reg. Nr." ning täida „Otsitav Regioon „riigi nimega kuskohas otsitav ettevõte asub.
+-   avanevas aknas sisesta „Otsitav nimi" (ei pea olema täpne) või „Otsitav Reg. Nr." ning täida „Otsitav Regioon" riigi nimega kuskohas otsitav ettevõte asub.
 
 -   Vasakul „Äriregister" blokis kuvatakse registrist saadud andmed
 
@@ -54,7 +54,7 @@ Uue hankija loomisel
 
 Business Centralisse lisatud andmeid saad vajadusel muuta samal lehel või hiljem hankija kaardil.
 
--   OK -- andmed lisatakse hankija kaardile.
+-   OK - andmed lisatakse hankija kaardile.
 
 Olemasoleva hankija andmete kontroll.
 
@@ -66,9 +66,10 @@ Olemasoleva hankija andmete kontroll.
 
 -   kuvatakse registri andmed ja saad neid kontrollida BC olevate andmetega ning vajadusel kopeerida „kolme tärniga kastil" klikkides kas ükshaaval või kõik korraga.
 
-**Kliendi andmete päring**
+## Kliendi andmete päring
 
 Toimub analoogselt hankijaga aga kliendikaardilt.
+
 
   [www.lursoft.lv]: http://www.lursoft.lv/
   [1]: ./media/image1.et.png

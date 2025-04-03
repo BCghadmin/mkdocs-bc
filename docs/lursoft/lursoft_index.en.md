@@ -1,6 +1,4 @@
-## Lursoft Interface
-
-Through the Lursoft interface, it is possible to import the data of Estonian, Latvian, and Lithuanian companies from the Lursoft company database into Dynamics 365 Business Central, including:
+Through the Lursoft interface, it is possible to import the data of Estonian, Latvian and Lithuanian companies from the Lursoft company database into Dynamics 365 Business Central, including:
 
 -   Company name
 
@@ -12,29 +10,32 @@ Through the Lursoft interface, it is possible to import the data of Estonian, La
 
 To start the service, it is necessary to sign a contract with the database administrator.
 
-Contacts: SIA "LURSOFT IT" Matīsa street 8, Rīga, LV-1001
+Contacts: 
+**SIA "LURSOFT IT"**
 
-www.lursoft.lv
+Matīsa street 8, Rīga, LV-1001
 
-[mailto:info@lursoft.lv]
+https://www.lursoft.lv/
 
-**Setup.**
+<info@lursoft.lv>
+
+## Setup
 
 On the "Lursoft Business Register Setup" page, fill in the fields required for the connection.
 
--   Apply Default Settings -- the Lursoft Query URL and Access Token URL will be added.
+-   Apply Default Settings - the Lursoft Query URL and Access Token URL will be added.
 
 -   The query and token credentials will be sent by Lursoft after the contract is signed.
 
 -   "Query Response" specifies Lursoft Business Register search country. The default language is Latvian.
 
-![test][1]
+![][1]
 
-After the setup is done you can also test the connection by clicking "Test Connection." In the opening window "Lursoft Business Register Query," you can add the name or Reg. No. of the company you are looking for and the country you are looking for. If the connection is available, the imported data will be displayed in the left Business Register block.
+After the setup is done you can also test the connection by clicking "Test Connection". In the opening window "Lursoft Business Register Query", you can add the name or Reg. No. of the company you are looking for and the country you are looking for. If the connection is available, the imported data will be displayed in the left Business Register block.
 
 ![][2]
 
-**Vendor Data Query**
+## Vendor Data Query
 
 When creating a new vendor:
 
@@ -42,15 +43,15 @@ When creating a new vendor:
 
 -   Click "Query Lursoft Business Register"
 
--   In the opening window, enter the "Name to Search" (does not have to be exact) or " Reg. No. to Search" and fill in the "Search Region" with the name of the country where the company you are looking for is registered.
+-   In the opening window, enter the "Name to Search" (does not have to be exact) or "Reg. No. to Search" and fill in the "Search Region" with the name of the country where the company you are looking for is registered.
 
 -   The data obtained from the register will be displayed in the left "Business Register" block.
 
--   By clicking on the "three dots box," you can add the data to Business Central either one by one or all at once.
+-   By clicking on the "three dots box", you can add the data to Business Central either one by one or all at once.
 
 -   The data added to Business Central can be modified on the same page or later on the vendor card.
 
--   Click OK -- the data will be added to the vendor card.
+-   Click OK - the data will be added to the vendor card.
 
 Checking Existing Vendor Data
 
@@ -64,7 +65,7 @@ Checking Existing Vendor Data
 
 ![][3]
 
-**Customer Data Query**
+## Customer Data Query
 
 This is done similarly to the vendor but from the customer card.
 
