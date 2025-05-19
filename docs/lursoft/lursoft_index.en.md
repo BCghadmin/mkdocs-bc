@@ -19,6 +19,10 @@ https://www.lursoft.lv/
 
 <info@lursoft.lv>
 
+## User permission sets
+
+A user with limited rights (not SUPER) must be assigned the user permission set OIX-LS LURSOFTAPP.
+
 ## Setup
 
 On the "Lursoft Business Register Setup" page, fill in the fields required for the connection.
