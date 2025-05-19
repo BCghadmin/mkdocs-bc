@@ -83,7 +83,7 @@ Ava Business Centralis Pangaliidese seaded ning vali liidestatav pank Panga kana
 
 **LHV CONNECT** puhul tuleb ainult lisada sertifikaat.
 
-**COOP CPGW** selgub hiljem :)
+**COOP CPGW** puhul tuleb ainult lisada sertifikaat.
 
 ### Pangakonto seadistus
 
@@ -183,7 +183,7 @@ Eelmise päeva kohta automaatselt imporditava pangaväljavõtte saamiseks tuleb 
 
 Mine Tööjärjekorra kanded ja vajuta Uus
 
-Täida Käivitatava objekti liik Aruanne ja Käivitatava objekti ID 79901, Varaseim alustamise kuup/kl:
+Täida Käivitatava objekti liik Aruanne ja Käivitatava objekti ID 24009901, Varaseim alustamise kuup/kl:
 
 ![Queue entry configuration example][9]
 

@@ -4,26 +4,26 @@ To use the bank interface in Business Central, you need to sign a *gateway* dire
 
 ### Swedbank
 
-<https://www.swedbank.ee/business/d2d/ebanking/gateway>
+<https://www.swedbank.ee/business/d2d/ebanking/gateway?language=ENG>
 
 Supported services:
 
 -   Sending payments to the bank (unsigned payments)
--   Account statement -- automatically retrieves the previous day's statement
+-   Account statement - automatically retrieves the previous day's statement
 -   Query for the current day's account statement
 
 ### LHV
 
-<https://www.lhv.ee/et/connect>
+<https://www.lhv.ee/en/connect>
 
 Supported services:
 
 -   Sending payments to the bank (unsigned payments)
--   Account statement -- automatically retrieves the previous day's statement
+-   Account statement - automatically retrieves the previous day's statement
 
 ### SEB
 
-<https://www.seb.ee/ariklient/igapaevapangandus/elektroonilised-kanalid/baltic-gateway>
+<https://www.seb.ee/en/business/daily-banking/tools-and-online-services/baltic-gateway>
 
 Supported services:
 
@@ -32,12 +32,12 @@ Supported services:
 
 ### COOP Bank
 
-<https://www.cooppank.ee/gateway>
+<https://www.cooppank.ee/en/business/daily-banking/interfaces>
 
 Supported services:
 
 -   Sending payments to the bank (unsigned payments)
--   Account statement -- automatically retrieves the previous day's statement
+-   Account statement - automatically retrieves the previous day's statement
 
 ### Security Certificate
 
@@ -60,7 +60,7 @@ SEB guide:
 <https://developer.baltics.sebgroup.com/bgw/documentation/authentication>
 
 Coop Bank guide:  
-<https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf>
+<https://res30f.cooppank.ee/dg1aslker/image/upload/v1714044912/dokumendid/ariklient/liidestused/en/Gateway_votmete_genereerimise_juhend_eng.pdf>
 
 ## Configuring the Bank Interface
 
@@ -76,7 +76,7 @@ For **SEB BGW**, fill in the Agreement ID field and add the certificate.
 
 For **LHV CONNECT**, only the certificate needs to be added.
 
-For **COOP CPGW**, details will be clarified later.
+For **COOP CPGW**, only the certificate needs to be added.
 
 ### Bank Account Configuration
 
@@ -119,16 +119,16 @@ After the payment file is sent to the bank, the Payment Journal factbox will dis
 
 Possible payment statuses:
 
-- **RJCT** -- Rejected -- the payment was rejected by the bank
-- **ACTC** -- Pending -- awaiting approval and execution in the bank
-- **PDNG** -- Pending -- awaiting confirmation
-- **PART** -- Partially approved -- at least one payment is approved
-- **ACSP** -- Approved -- the payment is approved but not yet executed
-- **ACSC** -- Executed -- the payment has been executed
-- **ACWC** -- Accepted with changes -- changes were made and accepted, but the payment is not yet executed
-- **Pending** -- the payment import file is being verified (SEB)
-- **File check successful** -- the payment import file verification was successful (SEB)
-- **Rejected** -- the payment import file verification was unsuccessful (SEB)
+- RJCT - Rejected - the payment was rejected by the bank
+- ACTC - Pending - awaiting approval and execution in the bank
+- PDNG - Pending - awaiting confirmation
+- PART - Partially approved - at least one payment is approved
+- ACSP - Approved - the payment is approved but not yet executed
+- ACSC - Executed - the payment has been executed
+- ACWC - Accepted with changes - changes were made and accepted, but the payment is not yet executed
+- Pending - the payment import file is being verified (SEB)
+- File check successful - the payment import file verification was successful (SEB)
+- Rejected - the payment import file verification was unsuccessful (SEB)
 
 ## Importing Bank Statements
 
@@ -142,9 +142,9 @@ In the window that opens, choose the type of statement to import for the desired
 
 ![Statement type selection][8]
 
-- **End-of-day statement** -- only the end date can be specified. All unimported bank transactions for this date will be retrieved into BC.
-- **Statement** -- specify a period for retrieving the bank statement into BC.
-- **Intraday statement** -- retrieves the BC working day's statement.
+- **End-of-day statement** - only the end date can be specified. All unimported bank transactions for this date will be retrieved into BC.
+- **Statement** - specify a period for retrieving the bank statement into BC.
+- **Intraday statement** - retrieves the BC working day's statement.
 
 After setting the filters, a message will appear:
 

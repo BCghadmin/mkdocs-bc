@@ -18,6 +18,10 @@ https://www.lursoft.lv/
 
 <info@lursoft.lv>
 
+## Kasutajaõigused
+
+Piiratud õigustega kasutajale (mitte SUPER) vajalik lisada kasutaja õiguste komplekt OIX-LS LURSOFTAPP.
+
 ## Seadistus
 
 Lehel „Lursoft Äriregistri Seaded" tuleb täita ühenduseks vajalikud väljad.
