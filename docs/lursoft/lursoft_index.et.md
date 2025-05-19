@@ -10,7 +10,7 @@ Lursoft liidese kaudu on võimalik Dynamics 365 Business Central-sse, klientide 
 
 Teenuse käivitamiseks on vajalik sõlmida leping andmebaasi haldajaga, kontaktid:
 
-**SIA"LURSOFT IT**
+**SIA „Lursoft IT”**
 
 Matīsa street 8, Rīga, LV-1001
 

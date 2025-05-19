@@ -11,7 +11,7 @@ Through the Lursoft interface, it is possible to import the data of Estonian, La
 To start the service, it is necessary to sign a contract with the database administrator.
 
 Contacts: 
-**SIA "LURSOFT IT"**
+**SIA „Lursoft IT”**
 
 Matīsa street 8, Rīga, LV-1001
 
