@@ -42,6 +42,10 @@ The solution created complements the existing option to add links to documents. 
 
 - Finished production order
 
+## User permission set
+
+A user with limited rights (not SUPER) must be assigned the permission set OIX-DL SUNODOCLINKS.
+
 ## Usage
 
 When in the document list or on the document, open the factbox pane.

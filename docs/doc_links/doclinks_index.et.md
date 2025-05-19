@@ -42,6 +42,9 @@ Loodud lahendus täiendab olemasolevat linkide lisamise võimalust dokumentidele
 
 - Lõpetatud tootmistellimus
 
+## Kasutajaõigused
+
+Kasutajale, kellel on piiratud õigused (mitte SUPER), peab määrama kasutaja õiguste komplekt OIX-DL SUNODOCLINKS.
 
 ## Kasutamine
 
