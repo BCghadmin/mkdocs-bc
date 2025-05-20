@@ -71,13 +71,25 @@ Coop Pank juhend:
 
 ## Pangaliidese seadistamine
 
+### Seadistamine kasutades juhendatud seadistust
+
+Mine Juhendatud seadistus ning vali Set-Up OIXIO Bank Link
+
+![Conf Bank Interface with Assisted setup][1]
+
+Avaneb Pangaliidese seadistamine aken, kus tee vajalikud tegevused ning liigu Edasi nupu abil järgmiste sammude juurde.
+
+![Assisted setup][2]
+
+### Manuaalne pangaliidese seadistamine
+
 Ava Business Centralis Pangaliidese seaded ning vali liidestatav pank Panga kanalid blokist. Seadistatavad väljad on pankadel erinevad.
 
-![Conf Bank Interface][13]
+![Conf Bank Interface][3]
 
 **SWED SGW** puhul täida Lepingu ID, API võti (Kliendi ID), Parool väljad ning seejärel lae üles sertifikaat kasutades menüüribal nuppu Lisa sertifikaat:
 
-![SWED SGW configuration example][1]
+![SWED SGW configuration example][4]
 
 **SEB BGW** puhul täida lepingu ID väli ja lisa sertifikaat.
 
@@ -89,7 +101,7 @@ Ava Business Centralis Pangaliidese seaded ning vali liidestatav pank Panga kana
 
 Ava Pangakontod loend ning ava liidestatava pangakonto kaart, täida OIXIO Pangaliides blokis Panga kanal:
 
-![Bank account configuration example][2]
+![Bank account configuration example][5]
 
 Pangakonto kaardil peavad olema täidetud järgmised väljad:
 
@@ -109,49 +121,43 @@ Pangakonto kaardil peavad olema täidetud järgmised väljad:
 
 Pane vastava panga tööjärjekorra kanded valmis olekusse.
 
-![Queue entry example][3]
+![Queue entry example][6]
 
 ## Maksete eksportimine panka
 
 Maksežurnaali töölehel tuleb märkida Luba maksete eksporti, et saaks maksefaili panka saata ja Kontrolli makse staatuseid enne konteerimist, et konteerimisel toimuks kontroll, kas mõni makse on tühistatud.
 
-![Payment Journal example][4]
+![Payment Journal example][7]
 
 Täida maksežurnaal sooritatavate maksetega kas käsitsi või soovitades makseid hankijale.
 
-Maksefaili panka saatmiseks vali menüüribalt Pank - Saada Panka...
+Maksefaili panka saatmiseks vali menüüribalt Pank - Saada panka...
 
-![Send to Bank example][5]
+![Send to Bank example][8]
 
 Maksed liiguvad panka kinnitamata olekus. Need tuleb pangas eraldi kinnitada ja sooritada tehingud.
 
 Pärast maksefaili panka saatmist ilmub mõne aja pärast maksežurnaali factboxi info makse oleku kohta:
 
-![Payment status example][6]
+![Payment status example][9]
 
 Makse olek näitab, mis seisus makse pangas on.
 
 Võimalikud makse olekud:
 
-RJCT - tagasi lükatud - makse pangas tagasi lükatud
+Tagasi lükatud - makse pangas tagasi lükatud. SEB puhul tähendab Tagasi lükatud staatus, et makse impordifaili kontroll ei olnud edukas
 
-ACTC - Ootel - ootab pangas makse kinnitamist ja sooritamist
+Ootel - ootab pangas makse kinnitamist ja sooritamist. SEB puhul tähendab Ootel staatus makse impordifaili kontrollimist
 
-PDNG - Ootel - makse kinnituse ootel
+Osaliselt kinnitatud -vähemalt üks makse on kinnitatud
 
-PART - Osaliselt kinnitatud -vähemalt üks makse on kinnitatud
+Kinnitatud - makse on kinnitatud, kuid ülekanne veel tegemata
 
-ACSP - Kinnitatud - makse on kinnitatud, kuid ülekanne veel tegemata
+Teostatud - makse on sooritatud
 
-ACSC - Teostatud - makse on sooritatud
-
-ACWC - Aktsepteeritud koos muudatusega - tehtud mõned muudatused ja aktsepteeritud, kuid ülekanne veel tegemata
-
-Ootel - makse impordifaili kontrollitakse (SEB)
+ktsepteeritud koos muudatusega - tehtud mõned muudatused ja aktsepteeritud, kuid ülekanne veel tegemata
 
 Faili kontroll edukas - makse impordifaili kontroll edukas (SEB)
-
-Tagasi lükatud - makse impordifaili kontroll ei olnud edukas (SEB)
 
 ## Pangaväljavõtte import
 
@@ -159,11 +165,11 @@ Tagasi lükatud - makse impordifaili kontroll ei olnud edukas (SEB)
 
 Maksete sobitamise žurnaalis vali Pangaliidese maksete importimine:
 
-![Import Payments example][7]
+![Import Payments example][10]
 
 Avanevas aknas vali, millise panga millist väljavõtte tüüpi soovid importida:
 
-![Statement type selection][8]
+![Statement type selection][11]
 
 **Päevalõpu väljavõte** - saad määrata ainult lõppkuupäeva. BC-sse päritakse kõik selleks kuupäevaks importimata pangatehingud.
 
@@ -173,7 +179,7 @@ Avanevas aknas vali, millise panga millist väljavõtte tüüpi soovid importida
 
 Pärast filtrite määramist tuleb teade:
 
-![Import query notification][14]
+![Import query notification][12]
 
 See tähendab, et päring on panga saadetud ja läheb natukene aega enne kui pangaväljavõte BC-sse ilmub. SEB väljavõte tekib kohe.
 
@@ -185,37 +191,39 @@ Mine Tööjärjekorra kanded ja vajuta Uus
 
 Täida Käivitatava objekti liik Aruanne ja Käivitatava objekti ID 24009901, Varaseim alustamise kuup/kl:
 
-![Queue entry configuration example][9]
+![Queue entry configuration example][13]
 
 Varaseim alustamise kuup/kl täida sellega, millal soovid, et eelmise päeva väljavõte BC-sse päritakse.
 
 Seejärel vajuta sisse marker Aruande päringuakna valikud:
 
-![Report request options example][10]
+![Report request options example][14]
 
 Avaneb sama vaade, mis maksete sobitamise žurnaalis Pangaliidese maksete importimine nupu vajutamisel.
 
 Täida Pank, mille väljavõtet automaatselt importida soovid ja Väljavõtte tüüp lahtrist vali Päevalõpu väljavõte. Algkuupäev ja Lõppkuupäev väljad jäta tühjaks.
 
-![Automatic import configuration example][11]
+![Automatic import configuration example][15]
 
 Täida Korduvus blokis, mis päeviti päring teostatakse ja Minutite arv käivitamise vahel määra 1440, et kord päevas toimuks pangaväljavõtte päring:
 
-![Recurrence settings example][12]
+![Recurrence settings example][16]
 
 Iga pangakonto kohta tuleb teha eraldi tööjärjekorra kanne.
 
-  [1]: ./media/image2.png
-  [2]: ./media/image3.png
-  [3]: ./media/image4.png
-  [4]: ./media/image5.png
-  [5]: ./media/image6.png
-  [6]: ./media/image7.png
-  [7]: ./media/image8.png
-  [8]: ./media/image9.png 
-  [9]: ./media/image11.png
-  [10]: ./media/image12.png
-  [11]: ./media/image13.png
-  [12]: ./media/image14.png
-  [13]: ./media/image1.png
-  [14]: ./media/image10.png
+  [1]: ./media/image1EE.png
+  [2]: ./media/image2EE.png
+  [3]: ./media/image3EE.png
+  [4]: ./media/image4EE.png
+  [5]: ./media/image5EE.png
+  [6]: ./media/image6EE.png
+  [7]: ./media/image7EE.png
+  [8]: ./media/image8EE.png 
+  [9]: ./media/image9EE.png
+  [10]: ./media/image10EE.png
+  [11]: ./media/image11EE.png
+  [12]: ./media/image12EE.png
+  [13]: ./media/image13EE.png
+  [14]: ./media/image14EE.png
+  [15]: ./media/image15EE.png
+  [16]: ./media/image16EE.png

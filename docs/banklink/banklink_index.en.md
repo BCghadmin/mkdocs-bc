@@ -64,13 +64,25 @@ Coop Bank guide:
 
 ## Configuring the Bank Interface
 
-Open Bank Interface settings in Business Central and select the bank to be integrated from the Bank Channels block. The fields to be configured differ by bank.
+### Setting up using assisted setup
 
-![Conf Bank Interface][13]
+Go to Assisted Setup and select Set-Up OIXIO Bank Link.
+
+![Conf Bank Interface with Assisted setup][1]
+
+Bank Link Set-up page opens, where you need to perform necessary actions and proceed to the next steps using the Next button.
+
+![Assisted setup][2]
+
+### Manual setup
+
+Open Bank Link Setup in Business Central and select the bank to be integrated from the Bank Channels block. The fields to be configured differ by bank.
+
+![Conf Bank Interface][3]
 
 For **SWED SGW**, fill in the Agreement ID, API Key (Client ID), and Password fields, then upload the certificate using the Add Certificate button on the menu bar:
 
-![SWED SGW configuration example][1]
+![SWED SGW configuration example][4]
 
 For **SEB BGW**, fill in the Agreement ID field and add the certificate.
 
@@ -80,42 +92,42 @@ For **COOP CPGW**, only the certificate needs to be added.
 
 ### Bank Account Configuration
 
-Open the Bank Accounts list and access the card for the bank account to be integrated. Fill in the Bank Interface block:
+Open the Bank Accounts list and access the card for the bank account to be integrated. Fill in the OIXIO Bank Interface block:
 
-![Bank account configuration example][2]
+![Bank account configuration example][5]
 
 The following fields must be completed on the bank account card:
 
--   Payment instruction message numbers
--   Bank account posting group
--   SWIFT code
+-   Credit Transfer Msg. Nos.
+-   Bank Acc. Posting Group
+-   SWIFT Code
 -   IBAN
--   Bank statement import format
--   Payment export format
+-   Bank Statement Import Format
+-   Payment Export Format
 
-### Queue Entries
+### Job Queue Entries
 
-Set the queue entries for the respective bank to the ready state.
+Set the job queue entries for the respective bank to the ready state.
 
-![Queue entry example][3]
+![Queue entry example][6]
 
 ## Exporting Payments to the Bank
 
-In the Payment Journal worksheet, check **Allow Payment Export** to enable sending the payment file to the bank and **Check Payment Statuses Before Posting** to verify the payment status before posting.
+In the Payment Journal Batches, check **Allow Payment Export** to enable sending the payment file to the bank and **Check Payment Statuses** to verify the payment status before posting.
 
-![Payment Journal example][4]
+![Payment Journal example][7]
 
 Complete the Payment Journal with payments to be made, either manually or by suggesting payments for a vendor.
 
-To send the payment file to the bank, select **Bank -- Send to Bank...** from the menu bar.
+To send the payment file to the bank, select **Bank - Send to Bank...** from the menu bar.
 
-![Send to Bank example][5]
+![Send to Bank example][8]
 
 Payments are sent to the bank in an unsigned state. They must be separately approved and executed in the bank.
 
 After the payment file is sent to the bank, the Payment Journal factbox will display payment status information after a short while.
 
-![Payment status example][6]
+![Payment status example][9]
 
 Possible payment statuses:
 
@@ -134,63 +146,65 @@ Possible payment statuses:
 
 ### Manual Import
 
-In the Payment Matching Journal, select **Import Payments from Bank Interface**:
+In the Payment Reconciliation Journal, select **Bank Link Import Transactions**:
 
-![Import Payments example][7]
+![Import Payments example][10]
 
 In the window that opens, choose the type of statement to import for the desired bank:
 
-![Statement type selection][8]
+![Statement type selection][11]
 
-- **End-of-day statement** - only the end date can be specified. All unimported bank transactions for this date will be retrieved into BC.
-- **Statement** - specify a period for retrieving the bank statement into BC.
-- **Intraday statement** - retrieves the BC working day's statement.
+- **End of Day Statement** - only the end date can be specified. All unimported bank transactions for this date will be retrieved into BC.
+- **Past Days Statement** - specify a period for retrieving the bank statement into BC.
+- **Intraday** - retrieves the BC's work date statement.
 
 After setting the filters, a message will appear:
 
-![Import query notification][14]
+![Import query notification][12]
 
 This means the query has been sent to the bank and it will take some time for the bank statement to appear in BC. SEB statements appear immediately.
 
 ## Automatic Import of Bank Statements
 
-To automatically import the previous day's bank statement, configure the **Queue Entries** for an automatic task.
+To automatically import the previous day's bank statement, configure the **Job Queue Entries** for an automatic task.
 
-Go to **Queue Entries** and click **New**.
+Go to **Job Queue Entries** and click **New**.
 
-Fill in the **Executable Object Type** with **Report** and **Executable Object ID** with **79901**, and set the **Earliest Start Date/Time**:
+Fill in the **Object Type to Run** with **Report** and **Object ID to Run** with **24009901**, and set the **Earliest Start Date/Time**:
 
-![Queue entry configuration example][9]
+![Queue entry configuration example][13]
 
 Set the desired time for retrieving the previous day's statement into BC.
 
 Then check the box for **Report Request Page Options**:
 
-![Report request options example][10]
+![Report request options example][14]
 
-A view identical to **Import Payments from Bank Interface** in the Payment Matching Journal will open.
+A view identical to **Bank Link Account Statement Request** in the Payment Reconciliation Journal will open.
 
-Fill in the **Bank** field for the bank statement to be imported automatically and select **End-of-Day Statement** in the Statement Type field. Leave the **Start Date** and **End Date** fields blank.
+Fill in the **Bank Account** field for the bank statement to be imported automatically and select **End of Day Statement** in the Statement Type field. Leave the **Start Date** and **End Date** fields blank.
 
-![Automatic import configuration example][11]
+![Automatic import configuration example][15]
 
-In the **Recurrence** block, specify which days the query should run and set the **Interval Between Runs (in minutes)** to **1440** to ensure the query is run daily.
+In the **Recurrence** block, specify which days the query should run and set the **No. of Minutes between Runs** to **1440** to ensure the query is run daily.
 
-![Recurrence settings example][12]
+![Recurrence settings example][16]
 
 A separate queue entry must be created for each bank account.
 
-  [1]: ./media/image2.png
-  [2]: ./media/image3.png
-  [3]: ./media/image4.png
-  [4]: ./media/image5.png
-  [5]: ./media/image6.png
-  [6]: ./media/image7.png
-  [7]: ./media/image8.png
-  [8]: ./media/image9.png 
-  [9]: ./media/image11.png
-  [10]: ./media/image12.png
-  [11]: ./media/image13.png
-  [12]: ./media/image14.png
-  [13]: ./media/image1.png
-  [14]: ./media/image10.png
+  [1]: ./media/image1ENG.png
+  [2]: ./media/image2ENG.png
+  [3]: ./media/image3ENG.png
+  [4]: ./media/image4ENG.png
+  [5]: ./media/image5ENG.png
+  [6]: ./media/image6ENG.png
+  [7]: ./media/image7ENG.png
+  [8]: ./media/image8ENG.png 
+  [9]: ./media/image9ENG.png
+  [10]: ./media/image10ENG.png
+  [11]: ./media/image11ENG.png
+  [12]: ./media/image12ENG.png
+  [13]: ./media/image13ENG.png
+  [14]: ./media/image14ENG.png
+  [15]: ./media/image14ENG.png
+  [16]: ./media/image14ENG.png
