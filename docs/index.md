@@ -9,3 +9,5 @@
 [Email](email/email_index.et.mde.md)
 
 [Item Reference](itemref/itemref_index.et.md)
+
+[Job Queue](jobqueue/jobqueue_index.et.md)

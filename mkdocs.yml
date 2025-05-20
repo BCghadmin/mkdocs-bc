@@ -85,3 +85,5 @@ nav:
   - Email: email/email_index.en.md
   - ItemRef: itemref/itemref_index.et.md
   - ItemRef: itemref/itemref_index.en.md
+  - JobQueue: jobqueue/jobqueue_index.et.md
+  - JobQueue: jobqueue/jobqueue_index.en.md
