@@ -20,13 +20,13 @@ Teavitusgrupi kasutajad tabelis täida väljad:
 
 ![][3]
 
-Teavitusgrupi kood -- loodud teavitusgrupi kood
+Teavitusgrupi kood - loodud teavitusgrupi kood
 
-Kasutajanimi -- kasutaja, kellele saadetakse teavitused
+Kasutajanimi - kasutaja, kellele saadetakse teavitused
 
-Kontakti e-mail -- e-maili aadress, millele teavitus saadetakse
+Kontakti e-mail - e-maili aadress, millele teavitus saadetakse
 
-Autentimise e-mail -- kasutaja BC-sse sisse logimise e-maili aadress
+Autentimise e-mail - kasutaja BC-sse sisse logimise e-maili aadress
 
 Otsi Tööjärjekorra seadistus, kus määra teavitusgrupi kood ja tööjärjekorra maks. tööaeg (tundides), kaua võib tööjärjekorra kanne olla Töös staatuses enne kui saadetakse liiga kaua töös olnud tööjärjekorra kande kohta teavitus.
 
