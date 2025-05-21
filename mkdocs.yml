@@ -39,11 +39,13 @@ plugins:
           bank_link: "Bank Link"
           Doc_links: "Document links"
           home: "Home"
+          ItemRef: "Item Reference"
         et:
           extensions: "Laiendused"
           bank_link: "Pangaliides"
           home: "Pealeht"
           Doc_links: "Dokumendi lingid"
+          ItemRef: "Kauba viited"
 
 extra:
   alternate:
