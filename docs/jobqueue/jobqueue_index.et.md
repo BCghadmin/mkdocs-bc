@@ -30,13 +30,13 @@ Autentimise e-mail -- kasutaja BC-sse sisse logimise e-maili aadress
 
 Otsi Tööjärjekorra seadistus, kus määra teavitusgrupi kood ja tööjärjekorra maks. tööaeg (tundides), kaua võib tööjärjekorra kanne olla Töös staatuses enne kui saadetakse liiga kaua töös olnud tööjärjekorra kande kohta teavitus.
 
-![][5]
+![][4]
 
 Teavituste saatmiseks ja tõrkes kannete taaskäivitamiseks tuleb luua tööjärjekorra kanne.
 
 Otsi Tööjärjekorra kanded ja loo uus. Käivitava objekti liik väljalt vali Koodiplokk, Käivitatava objekti liik 77410. Korduvus blokist määra, mis päevadel tööjärjekorda kannete staatuste kontroll toimub ning Minutite arv käivitamise vahel väljale määra kui tihedalt staatuseid kontrollitakse (minutites).
 
-![][6]
+![][5]
 
   [1]: ./media/image1ee.png
   [2]: ./media/image2ee.png
