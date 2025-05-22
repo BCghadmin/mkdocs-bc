@@ -40,12 +40,14 @@ plugins:
           Doc_links: "Document links"
           home: "Home"
           ItemRef: "Item Reference"
+          JobQueue: "Job Queue manager"
         et:
           extensions: "Laiendused"
           bank_link: "Pangaliides"
           home: "Pealeht"
           Doc_links: "Dokumendi lingid"
           ItemRef: "Kauba viited"
+          JobQueue: "Tööjärjekorra kannete haldus"
 
 extra:
   alternate:
