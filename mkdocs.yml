@@ -1,6 +1,7 @@
 site_name: OIXIO Digital Business Central Applications Documentation
 theme:
   name: material
+  logo: assets/oixio_Digital_logo.png
   features:
     # - navigation.tabs
     - navigation.sections
