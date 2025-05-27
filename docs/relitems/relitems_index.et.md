@@ -109,4 +109,4 @@ Kliendi käest tagasi oodatavate kaupade tagastus tuleb vormistada läbi müügi
   [9]: ./media/image9ee.png
   [10]: ./media/image10ee.png
   [11]: ./media/image11ee.png
-  [12] ./media/image12ee.png
+  [12]: ./media/image12ee.png
