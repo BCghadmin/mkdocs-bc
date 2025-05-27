@@ -8,6 +8,10 @@
 
 [Email](email/email_index.et.mde.md)
 
-[Item Reference](itemref/itemref_index.et.md)
+[Kauba viited](itemref/itemref_index.et.md)
 
-[Job Queue](jobqueue/jobqueue_index.et.md)
+[Tööjärjekorra teavitused](jobqueue/jobqueue_index.et.md)
+
+[Eesti lokalisatsiooni täiendused](ee/sunoee_index.et.md)
+
+[Seotud tooted](relitems/relitems_index.et.md)

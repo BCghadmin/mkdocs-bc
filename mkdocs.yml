@@ -42,6 +42,8 @@ plugins:
           home: "Home"
           ItemRef: "Item Reference"
           JobQueue: "Job Queue manager"
+          EE: "Estonian localization additons"
+          RelatedItems: "Related Items"
         et:
           extensions: "Laiendused"
           bank_link: "Pangaliides"
@@ -49,6 +51,8 @@ plugins:
           Doc_links: "Dokumendi lingid"
           ItemRef: "Kauba viited"
           JobQueue: "Tööjärjekorra kannete haldus"
+          EE: "Eesti lokalisatsiooni täiendused"
+          RelatedItems: "Seotud tooted"
 
 extra:
   alternate:
@@ -92,3 +96,7 @@ nav:
   - ItemRef: itemref/itemref_index.en.md
   - JobQueue: jobqueue/jobqueue_index.et.md
   - JobQueue: jobqueue/jobqueue_index.en.md
+  - EE: ee/sunoee_index.et.md
+  - EE: ee/sunoee_index.en.md
+  - RelatedItems: relitems/relitems_index.et.md
+  - RelatedItems: relitems/relitems_index.en.md
