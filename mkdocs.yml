@@ -37,7 +37,7 @@ plugins:
       translate_nav:
         en:
           extensions: "Extensions"
-          bank_link: "Bank Link"
+          bank_link: "Baltic Bank Connect"
           Doc_links: "Document links"
           home: "Home"
           ItemRef: "Item Reference"
