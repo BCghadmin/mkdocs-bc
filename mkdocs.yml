@@ -44,6 +44,7 @@ plugins:
           JobQueue: "Job Queue manager"
           EE: "Estonian localization additons"
           RelatedItems: "Related Items"
+          Units: "Alternative Units"
         et:
           extensions: "Laiendused"
           bank_link: "Pangaliides"
@@ -53,6 +54,7 @@ plugins:
           JobQueue: "Tööjärjekorra kannete haldus"
           EE: "Eesti lokalisatsiooni täiendused"
           RelatedItems: "Seotud tooted"
+          Units: "Alternatiivsed ühikud"
 
 extra:
   alternate:
@@ -100,3 +102,5 @@ nav:
   - EE: ee/sunoee_index.en.md
   - RelatedItems: relitems/relitems_index.et.md
   - RelatedItems: relitems/relitems_index.en.md
+  - Units: units/units_index.et.md
+  - Units: units/units_index.en.md
