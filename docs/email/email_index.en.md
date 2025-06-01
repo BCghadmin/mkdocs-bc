@@ -1,5 +1,3 @@
-**EMAIL**
-
 The solution complements the standard email with the display of the recipient field in the copy email, blind copy email, and sent email messages.
 
 Fields for copy and blind copy email have been added to the company data, allowing you to set default email addresses where the copy/blind copy will go when sending an email from Business Central.

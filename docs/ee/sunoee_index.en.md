@@ -1,5 +1,3 @@
-## Estonian Localization Enhancements
-
 Depends on Estonian Bank Formats Localization.
 
 The extension includes the configuration for mandatory vendor reference numbers and the calculation of customer reference numbers.

@@ -1,5 +1,3 @@
-# DOKUMENTIDE LINGID
-
 Loodud lahendus täiendab olemasolevat linkide lisamise võimalust dokumentidele. Juurde on lisatud linkide lisamise võimalus järgnevatele dokumentidele ja loenditele:
 
 - Ostutellimus

@@ -1,4 +1,3 @@
-# DOCUMENT LINKS
 
 The solution created complements the existing option to add links to documents. The ability to add links to the following documents and lists has been added:
 

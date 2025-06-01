@@ -1,5 +1,3 @@
-# EMAIL
-
 Lahendus täiendab standard meilimist koopia e-mail, pimekoopia e-mail ja saadetud meilisõnumites saaja välja kuvamise näol.
 
 Ettevõtte andmetesse lisatud koopia ja pimekoopia e-mail väljad, mis võimaldavad seadistada vaike e-mail aadressid, kuhu Business Centralist e-maili saatmisel koopia/pimekoopia läheb.

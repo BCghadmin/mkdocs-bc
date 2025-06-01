@@ -1,5 +1,3 @@
-## JOB QUEUE
-
 Notification of job queue entries in error and too long in progress via email and restarting the entry.
 
 ### User permissions

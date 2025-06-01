@@ -1,5 +1,3 @@
-# Eesti lokalisatsiooni täiendused
-
 Sõltub Eesti pangaformaadid lokalisatsioonist.
 
 Laiendus sisaldab hankija viitenumbri kohustuslikkuse seadistust ja kliendi viitenumbrite arvutamist.

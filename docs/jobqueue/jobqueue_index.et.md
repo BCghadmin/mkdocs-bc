@@ -1,5 +1,3 @@
-## JOB QUEUE
-
 Tööjärjekorra kannete tõrkes ja liiga kaua töös olekus teavituste edastamine e-maili teel ning kande taaskäivitamine.
 
 ### Kasutajaõigused
