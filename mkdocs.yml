@@ -38,13 +38,14 @@ plugins:
         en:
           extensions: "Extensions"
           bank_link: "Baltic Bank Connect"
-          Doc_links: "Document links"
+          Doc_links: "DocuLink Manager"
           home: "Home"
-          ItemRef: "Item Reference"
-          JobQueue: "Job Queue manager"
+          ItemRef: "Smart Item Codes"
+          JobQueue: "Failed Queue Notifier"
           EE: "Estonian localization additons"
-          RelatedItems: "Related Items"
+          RelatedItems: "Related Goods Manager"
           Units: "Alternative Units"
+          Email: "Enhanched Email"
         et:
           extensions: "Laiendused"
           bank_link: "Pangaliides"
@@ -55,6 +56,7 @@ plugins:
           EE: "Eesti lokalisatsiooni täiendused"
           RelatedItems: "Seotud tooted"
           Units: "Alternatiivsed ühikud"
+          Email: "Email täiendused"
 
 extra:
   alternate:
@@ -104,3 +106,5 @@ nav:
   - RelatedItems: relitems/relitems_index.en.md
   - Units: units/units_index.et.md
   - Units: units/units_index.en.md
+  - Email: email/email_index.et.md
+  - Email: email/email_index.en.md
