@@ -38,7 +38,7 @@ plugins:
         en:
           extensions: "Extensions"
           bank_link: "Baltic Bank Connect"
-          Doc_links: "DocuLink Manager"
+          Doc_links: "DocLink Manager"
           home: "Home"
           ItemRef: "Smart Item Codes"
           JobQueue: "Failed Queue Notifier"
