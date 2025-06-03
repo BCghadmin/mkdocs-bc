@@ -1,5 +1,3 @@
-# Seadistused
-
 ## Ostu seadistus
 
 Ostuga seotud seadistused on „Ostude ja ostuv. seadistus" lehel plokis „Suno kauba viited"

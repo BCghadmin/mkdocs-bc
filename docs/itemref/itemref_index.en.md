@@ -1,5 +1,3 @@
-# Configurations
-
 ## Purchase configurations
 
 The configurations related to the purchases are on the "Purchase & Payables Setup\" page in the \"Suno Item References\" block
