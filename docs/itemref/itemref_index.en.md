@@ -1,44 +1,44 @@
-## Purchase configurations
+### Purchase configurations
 
 The configurations related to the purchases are on the "Purchase & Payables Setup\" page in the \"Suno Item References\" block
 
 ![][1]
 
-### Item numbers on purchace documents
+**Item numbers on purchace documents**
 
 ![][2]
 
-### Item reference numbers on purchase orders
+**Item reference numbers on purchase orders**
 
 ![][3]
 
-## Sales configurations
+### Sales configurations
 
 The configurations related to sales are on the \" Sales & Receivables Setup\" page in the \"Suno Item References\" block
 
 ![][4]
 
-### Item numbers on sales documents
+**Item numbers on sales documents**
 
 ![][5]
 
-### Item reference numbers on sales orders
+**Item reference numbers on sales orders**
 
 ![][6]
 
-## Vendor configurations
+### Vendor configurations
 
 Configurations related to the vendor are on the vendor card in the \"Suno item references\" block.
 
 ![][7]
 
-## Customer configurations
+### Customer configurations
 
 Configurations related to the customer are on the custromer card in the \"Suno item references\" block.
 
 ![][8]
 
-# Functionality
+## Functionality
 
 The functionalities used are related to the following tables and fields. With the table entries in the \"Item Reference List\" table.
 

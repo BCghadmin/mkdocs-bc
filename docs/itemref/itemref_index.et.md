@@ -1,44 +1,44 @@
-## Ostu seadistus
+### Ostu seadistus
 
 Ostuga seotud seadistused on „Ostude ja ostuv. seadistus" lehel plokis „Suno kauba viited"
 
 ![][1]
 
-### Kaubakood ostudokumendil
+**Kaubakood ostudokumendil**
 
 ![][2]
 
-### Kauba viitenumber ostutellimusel
+**Kauba viitenumber ostutellimusel**
 
 ![][3]
 
-## Müügi seadistus
+### Müügi seadistus
 
 Müügiga seotud seadistused on „Müügi ja müügivõlgade seadistus" lehel plokis „Suno kauba viited"
 
 ![][4]
 
-### Kaubakood müügidokumendil
+**Kaubakood müügidokumendil**
 
 ![][5]
 
-### Kauba viitenumber müügitellimusel
+**Kauba viitenumber müügitellimusel**
 
 ![][6]
 
-## Hankija seadistus
+### Hankija seadistus
 
 Hankijaga seotud seadistused on hankija kaardil plokis „Suno kauba viited".
 
 ![][7]
 
-## Kliendi seadistus
+### Kliendi seadistus
 
 Kliendiga seotud seadistused on kliendi kaardil plokis „Suno kauba viited".
 
 ![][8]
 
-# Funktsionaalsused
+## Funktsionaalsused
 
 Kasutatavad funktsionaalsused on seotud järgneva tabeli ja väljadega. Tabeli „Kaubaviidete loend" kirjetega.
 
@@ -52,7 +52,7 @@ Hankija ja kliendi kaardil rippmenüüs „Kaubakood ostu(kliendi kaardil müüg
 
 ![][11]
 
-## Kaubakood ostu- või müügidokumendil 
+### Kaubakood ostu- või müügidokumendil 
 
 Erinevate kaubakoodide kasutamine ostu- või müügidokumentide väljatrükil. Laiendus ei mõjuta Microsoft Base väljatrükke ja kasutamiseks tuleb vastavale väljatrüki laiendusele(näiteks Suno Base) lisada sõltuvus Suno Item Ref'ile. Väljatrüki näide, kus muudetakse kaubakoodi väljatrükil.
 
@@ -76,7 +76,7 @@ Kõikide valikute puhul kehtib loogika, et iga valiku puhul kasutatakse järjeko
 
 Sellise ostutellimuse puhul kasutatakse dokumentide väljatrükkide puhul tabelis „Kaubaviidete loend" leitud vöötkoodi viitenumbrit. Kui seda väärtust ei oleks tabelist leitud, siis oleks otsitud kaubaga seotud hankija koodi ja kui seda ei oleks ka leitud, siis oleks kasutatud kauba peal määratud kaubakoodi. Kui ükski neist otsingutest ei anna tulemust, siis lisatakse BC standard väärtus.
 
-## Kauba viitenumber ostu- või müügitellimusel 
+### Kauba viitenumber ostu- või müügitellimusel 
 
 Erinevate viitenumbrite kasutamine ostu- või müügitellimusel. Näide ostutellimuse välja Kauba viitenr. kohta.
 

@@ -1,4 +1,4 @@
-### Setting Up Alternative Units of Measure
+## Setting Up Alternative Units of Measure
 
 Alternative units are units that have defined mathematical relationships between them, allowing conversion from one unit to another within the same physical quantity.
 
@@ -28,7 +28,7 @@ Conversions between different quantity units are recorded in the **Item Unit of
 
 ![][5]
 
-### Using Alternative Units of Measure
+## Using Alternative Units of Measure
 
 Once the functionality is enabled, alternative units and their quantities are displayed on the following documents: blanket purchase order, purchase order, purchase return, blanket sales order, sales order, sales return, and transfer order lines. All referenced documents include factboxes titled **Quantities in Alternative Units**, which provide quick information on the conversion of quantities from the base unit to available alternative units.
 

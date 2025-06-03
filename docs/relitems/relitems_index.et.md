@@ -1,5 +1,3 @@
-# RELATED ITEMS
-
 Lahendus võimaldab kaubale määrata seotud tooted (näiteks taara), mis tulevad dokumendile ning eri kaubad, mille puhul müügi dokumendi konteerimisel tekivad eri kauba kanded ja nende üle on võimalik arvet pidada (näiteks kaubad, mille puhul kliendil on kohustus see tagastada).
 
 ## Kasutajaõigused

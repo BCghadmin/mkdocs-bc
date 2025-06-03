@@ -1,5 +1,3 @@
-# RELATED ITEMS
-
 The solution allows assigning related products to items (e.g., packaging), which are added to the document, and special items for which separate entries are created when posting the sales document, allowing for tracking (e.g., goods that the customer is obliged to return).
 
 ## Related Products
