@@ -112,5 +112,5 @@ Sellise ostutellimuse puhul kasutatakse ostutellimuse real välja „Kauba viite
   [16]: ./media/image16ee.png
   [17]: ./media/image17ee.png
   [18]: ./media/image18ee.png
-  [19]: ./media/image18ee.png
-  [20]: ./media/image18ee.png
+  [19]: ./media/image19ee.png
+  [20]: ./media/image20ee.png
