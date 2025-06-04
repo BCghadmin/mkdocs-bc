@@ -48,7 +48,7 @@ Kaubakaardil olevate väljadega „Hankija kauba nr."
 
 ![][10]
 
-Hankija ja kliendi kaardil rippmenüüs „Kaubakood ostu(kliendi kaardil müügi)dokumendil"
+Hankija ja kliendi kaardil rippmenüüs „Kaubakood ostu (kliendi kaardil müügi) dokumendil"
 
 ![][11]
 
