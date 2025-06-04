@@ -62,11 +62,11 @@ Use of different item numbers on the printout of purchase or sales documents. Th
 
 ![][12]
 
-It is possible to choose between 5 different options in the purchase or sale configuration: Empty (BC standard), Item, Barcode/vendor/Item, Vendor/barcode/item, Vendor\'s item no./item. In the case of sales documents, it is the customer instead of the vendor.
+It is possible to choose between 5 different options in the purchase or sale configuration: Empty (BC standard), Item, Barcode/vendor/Item, Vendor/barcode/item, Vendor's item no./item. In the case of sales documents, it is the customer instead of the vendor.
 
 ![][13]
 
-It is possible to choose between 5 different options in the purchase or sale configuration: Empty (BC standard), Item, Barcode/vendor/Item, Vendor/barcode/item, Vendor\'s item no./item. In the case of customer card, it is the customer instead of the vendor.
+It is possible to choose between 5 different options in the purchase or sale configuration: Empty (BC standard), Item, Barcode/vendor/Item, Vendor/barcode/item, Vendor's item no./item. In the case of customer card, it is the customer instead of the vendor.
 
 ![][14]
 
