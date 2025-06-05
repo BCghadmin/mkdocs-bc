@@ -56,7 +56,7 @@ plugins:
           EE: "Eesti lokalisatsiooni täiendused"
           RelatedItems: "Seotud tooted"
           Units: "Alternatiivsed ühikud"
-          Email: "Email täiendused1"
+          Email: "Email täiendused"
 
 extra:
   alternate:
