@@ -6,12 +6,14 @@
 
 [Dokumendi lingid](doc_links/doclinks_index.et.md)
 
-[Email](email/email_index.et.mde.md)
+[Email täiendused](email/email_index.et.md)
 
 [Kauba viited](itemref/itemref_index.et.md)
 
-[Tööjärjekorra teavitused](jobqueue/jobqueue_index.et.md)
+[Tööjärjekorra kannete haldus](jobqueue/jobqueue_index.et.md)
 
 [Eesti lokalisatsiooni täiendused](ee/sunoee_index.et.md)
 
 [Seotud tooted](relitems/relitems_index.et.md)
+
+[Alternatiivsed ühikud](units/units_index.et.md)

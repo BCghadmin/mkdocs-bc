@@ -4,14 +4,16 @@
 
 [Lursoft](lursoft/lursoft_index.en.md)
 
-[Document links](doc_links/doclinks_index.en.md)
+[DocLink Manager](doc_links/doclinks_index.en.md)
 
-[Email](email/email_index.en.md)
+[Enhanched Email](email/email_index.en.md)
 
-[Item Reference](itemref/itemref_index.en.md)
+[Smart Item Codes](itemref/itemref_index.en.md)
 
-[Job Queue](jobqueue/jobqueue_index.en.md)
+[Failed Queue Notifier](jobqueue/jobqueue_index.en.md)
 
 [Estonias localization additions](ee/sunoee_index.en.md)
 
-[Related items](relitems/relitems_index.en.md)
+[Related Goods Manager](relitems/relitems_index.en.md)
+
+[Alternative Units](units/units_index.en.md)

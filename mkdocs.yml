@@ -94,8 +94,6 @@ nav:
   - Lursoft: lursoft/lursoft_index.et.md
   - Doc_links: doc_links/doclinks_index.et.md
   - Doc_links: doc_links/doclinks_index.en.md
-  - Email: email/email_index.et.md
-  - Email: email/email_index.en.md
   - ItemRef: itemref/itemref_index.et.md
   - ItemRef: itemref/itemref_index.en.md
   - JobQueue: jobqueue/jobqueue_index.et.md
@@ -106,4 +104,6 @@ nav:
   - RelatedItems: relitems/relitems_index.en.md
   - Units: units/units_index.et.md
   - Units: units/units_index.en.md
+  - Email: email/email_index.et.md
+  - Email: email/email_index.en.md
 
