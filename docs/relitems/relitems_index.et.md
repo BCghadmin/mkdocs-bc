@@ -56,7 +56,7 @@ Lisades kliendi müügitellimusele täitub kliendi kaardilt Seotud toodete grupi
 
 Vajadusel võib müügitellimuse päisest Seotud toodete grupi tähise väljalt väärtuse eemaldada.
 
-Müügitellimuse ridadele tekivad seotud tooted tellimuse vabastamisel või kasutades päise menüüribalt Uuenda seotud tooted funktsiooni.
+Müügitellimuse ridadele tekivad seotud tooted tellimuse vabastamisel, kasutades päise menüüribalt Uuenda seotud tooted funktsiooni või müügitellimuse väljatrükki võttes.
 
 ![][7]
 
@@ -67,6 +67,10 @@ Seotud tootele tekib müügitellimuse reale Seotud tooted linnuke väli ja Seotu
 ![][8]
 
 Põhikauba koguse muutmisel muutub ka seotud toote real kogus.
+
+Müügitellimuse loomisel läbi dokumendi kopeerimise on vajalik Müügidokumendi kopeerimine vaheaknas vaja sisse lülitada Kopeeri seotud toodete read marker, et kopeeritavalt dokumendilt tuleksid kaasa seotud tooted.
+
+![][13]
 
 Müügi tagastuskorraldusel käib seotud toodete kasutamine samamoodi nagu müügitellimusel.
 
@@ -108,3 +112,4 @@ Kliendi käest tagasi oodatavate kaupade tagastus tuleb vormistada läbi müügi
   [10]: ./media/image10ee.png
   [11]: ./media/image11ee.png
   [12]: ./media/image12ee.png
+  [13]: ./media/image13ee.png

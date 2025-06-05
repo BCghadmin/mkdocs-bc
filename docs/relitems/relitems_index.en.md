@@ -52,7 +52,7 @@ When adding a customer sales order, the Related Product Group Code field is fill
 
 If necessary, the value can be removed from the Related Product Group Code field in the sales order header.
 
-Related products are added to the sales order lines upon release or by using the Update Related Products function from the header ribbon.
+Related products are added to the sales order lines upon release, by using the Update Related Products function from the header ribbon or when printing the sales order layout.
 
 ![][7]
 
@@ -63,6 +63,10 @@ The Related Products checkbox field and the Related Product Line No. field from 
 ![][8]
 
 Changing the quantity of the main item also changes the quantity on the related product line.
+
+When creating a sales order by copying a document, it is necessary to enable the Copy Attached Lines marker in the Copy Sales Document window so that related products from the source document are included.
+
+![][13]
 
 Using related products on sales return orders works the same way as on sales orders.
 
@@ -104,3 +108,4 @@ The return of items expected from the customer must be processed through a sales
   [10]: ./media/image10eng.png
   [11]: ./media/image11eng.png
   [12]: ./media/image12eng.png
+  [13]: ./media/image13eng.png
