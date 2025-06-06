@@ -12,7 +12,7 @@
 
 [Failed Queue Notifier](jobqueue/jobqueue_index.en.md)
 
-[Estonias localization additions](ee/sunoee_index.en.md)
+[Reference manager](ee/sunoee_index.en.md)
 
 [Related Goods Manager](relitems/relitems_index.en.md)
 

@@ -12,7 +12,7 @@
 
 [Tööjärjekorra kannete haldus](jobqueue/jobqueue_index.et.md)
 
-[Eesti lokalisatsiooni täiendused](ee/sunoee_index.et.md)
+[Viitenumbrite haldus](ee/sunoee_index.et.md)
 
 [Seotud tooted](relitems/relitems_index.et.md)
 
