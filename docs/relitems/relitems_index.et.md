@@ -86,7 +86,7 @@ Eri kaupa on võimalik kasutada ka seotud toodetena.
 
 ### Eri kaupade saldode jälgimine
 
-Eri kauba lähetamisel tekib eri kauba kanne. Eri kaupade saldot saab jälgida läbi kliendi kaardi, valides menüüribalt Seotud -- Ajalugu -- Kliendi eri kauba saldod/Kliendi eri kauba kanded.
+Eri kauba lähetamisel tekib eri kauba kanne. Eri kaupade saldot saab jälgida läbi kliendi kaardi, valides menüüribalt Seotud - Ajalugu - Kliendi eri kauba saldod/Kliendi eri kauba kanded.
 
 ![][10]
 

@@ -6,7 +6,7 @@
 
 [DocLink Manager](doc_links/doclinks_index.en.md)
 
-[Enhanched Email](email/email_index.en.md)
+[Enhanced Email](email/email_index.en.md)
 
 [Smart Item Codes](itemref/itemref_index.en.md)
 

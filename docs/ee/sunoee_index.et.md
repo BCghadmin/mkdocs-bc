@@ -22,11 +22,11 @@ Eesti pangaformaadid lokalisatsiooni arendusega saab seadistada uutele loodavate
 
 Kliendile viitenumbri genereerimiseks on kaks võimalust:
 
-1. Kliendi kaardilt menüüribalt Avaleht - Arvuta viitenumber
+1\. Kliendi kaardilt menüüribalt Avaleht - Arvuta viitenumber
 
 ![][2]
 
-2. Eesti pangaformaatide seadistus - Arvuta klientidele viitenumbrid
+2\. Eesti pangaformaatide seadistus - Arvuta klientidele viitenumbrid
 
 ![][3]
 

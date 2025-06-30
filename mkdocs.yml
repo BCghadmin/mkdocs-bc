@@ -45,7 +45,7 @@ plugins:
           EE: "Reference Manager"
           RelatedItems: "Related Goods Manager"
           Units: "Alternative Units"
-          Email: "Enhanched Email"
+          Email: "Enhanced Email"
         et:
           extensions: "Laiendused"
           bank_link: "Pangaliides"

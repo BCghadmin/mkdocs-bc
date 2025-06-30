@@ -82,7 +82,7 @@ Special item can also be used as related products.
 
 ### Tracking special item balances
 
-When shipping a special item, a special item entry is created. Special item balances can be tracked through the customer card by selecting Related -- History -- Customer Special Item Balances/Customer Special Item Entries from the ribbon.
+When shipping a special item, a special item entry is created. Special item balances can be tracked through the customer card by selecting Related - History - Customer Special Item Balances/Customer Special Item Entries from the ribbon.
 
 ![][10]
 
