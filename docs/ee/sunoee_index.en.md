@@ -16,10 +16,11 @@ With the Estonian Bank Formats Localization development, it is possible to set u
 
 There are two options for generating a reference number for a customer:
 
-1. From the customer card menu bar, Home - Calculate Reference No.
+1\. From the customer card menu bar, Home - Calculate Reference No.
 
 ![][2]
-2. Estonian Bank Formats Setup - Calculate Cust. Payment Ref. Nos.
+
+2\. Estonian Bank Formats Setup - Calculate Cust. Payment Ref. Nos.
 
 ![][3]
 
