@@ -8,7 +8,7 @@ On the vendor card, there is a setting for Reference Mandatory.
 
 ![][1]
 
-When this settings is enabled, a check is performed during the preview and posting of purchase orders and purchase invoices to ensure that the \"Payment Reference\" field is filled in. In the payment journal and payment matching journal, a check is performed to ensure that invoices with different reference numbers are not linked to a single payment. If they are, an error message is displayed, asking if you want to use the reference number specified on the supplier card.
+When this settings is enabled, a check is performed during the preview and posting of purchase orders and purchase invoices to ensure that the "Payment Reference" field is filled in. In the payment journal and payment matching journal, a check is performed to ensure that invoices with different reference numbers are not linked to a single payment. If they are, an error message is displayed, asking if you want to use the reference number specified on the supplier card.
 
 ### Customer Reference Numbers
 
