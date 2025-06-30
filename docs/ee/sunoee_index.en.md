@@ -19,7 +19,6 @@ There are two options for generating a reference number for a customer:
 1. From the customer card menu bar, Home - Calculate Reference No.
 
 ![][2]
-
 2. Estonian Bank Formats Setup - Calculate Cust. Payment Ref. Nos.
 
 ![][3]
