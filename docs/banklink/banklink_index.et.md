@@ -145,19 +145,19 @@ Makse olek näitab, mis seisus makse pangas on.
 
 Võimalikud makse olekud:
 
-Tagasi lükatud - makse pangas tagasi lükatud. SEB puhul tähendab Tagasi lükatud staatus, et makse impordifaili kontroll ei olnud edukas
+- Tagasi lükatud - makse pangas tagasi lükatud. SEB puhul tähendab Tagasi lükatud staatus, et makse impordifaili kontroll ei olnud edukas
 
-Ootel - ootab pangas makse kinnitamist ja sooritamist. SEB puhul tähendab Ootel staatus makse impordifaili kontrollimist
+- Ootel - ootab pangas makse kinnitamist ja sooritamist. SEB puhul tähendab Ootel staatus makse impordifaili kontrollimist
 
-Osaliselt kinnitatud -vähemalt üks makse on kinnitatud
+- Osaliselt kinnitatud -vähemalt üks makse on kinnitatud
 
-Kinnitatud - makse on kinnitatud, kuid ülekanne veel tegemata
+- Kinnitatud - makse on kinnitatud, kuid ülekanne veel tegemata
 
-Teostatud - makse on sooritatud
+- Teostatud - makse on sooritatud
 
-ktsepteeritud koos muudatusega - tehtud mõned muudatused ja aktsepteeritud, kuid ülekanne veel tegemata
+- Aktsepteeritud koos muudatusega - tehtud mõned muudatused ja aktsepteeritud, kuid ülekanne veel tegemata
 
-Faili kontroll edukas - makse impordifaili kontroll edukas (SEB)
+- Faili kontroll edukas - makse impordifaili kontroll edukas (SEB)
 
 ## Pangaväljavõtte import
 
