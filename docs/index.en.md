@@ -17,3 +17,5 @@
 [Related Goods Manager](relitems/relitems_index.en.md)
 
 [Alternative Units](units/units_index.en.md)
+
+[CentralPlus](base/base_index.en.md)
