@@ -294,7 +294,7 @@ Allika tähised kaubaandmiku kannetes annavad parema ülevaate, mis ettevõteteg
 
 #### Sisemine viide dokumentidel
 
-Ostu dokumentidele ja loenditesse lisatud Sisemine viide väli (tekstiväli, 250 tähemärki), mis on mõeldud sisemiseks infovahetuseks erinevate osapoolte vahel või dokumendi kohta vajaliku info talletamiseks.
+Ostu ja müügi dokumentidele ja loenditesse lisatud Sisemine viide väli (tekstiväli, 250 tähemärki), mis on mõeldud sisemiseks infovahetuseks erinevate osapoolte vahel või dokumendi kohta vajaliku info talletamiseks.
 
 ![][41]
 
