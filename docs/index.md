@@ -17,3 +17,5 @@
 [Seotud tooted](relitems/relitems_index.et.md)
 
 [Alternatiivsed ühikud](units/units_index.et.md)
+
+[CentralPlus](base/base_index.et.md)

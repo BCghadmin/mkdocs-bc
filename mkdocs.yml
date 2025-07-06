@@ -46,6 +46,7 @@ plugins:
           RelatedItems: "Related Goods Manager"
           Units: "Alternative Units"
           Email: "Enhanced Email"
+          Base: "CentralPlus"
         et:
           extensions: "Laiendused"
           bank_link: "Pangaliides"
@@ -57,6 +58,7 @@ plugins:
           RelatedItems: "Seotud tooted"
           Units: "Alternatiivsed ühikud"
           Email: "Email täiendused"
+          Base: "CentralPlus"
 
 extra:
   alternate:
@@ -106,4 +108,5 @@ nav:
   - Units: units/units_index.en.md
   - Email: email/email_index.et.md
   - Email: email/email_index.en.md
+  - Base: base/base_index.et.md
 
