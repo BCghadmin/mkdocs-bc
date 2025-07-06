@@ -1,3 +1,13 @@
+Enne laienduse installeerimist on vaja lisada järgmised laiendused:
+
+- Kauba viited
+
+- Eesti käibemaksu aruandlus
+
+## Kasutajaõigused
+
+Kasutajatele, kellel on piiratud õigused (mitte SUPER), peab määrama kasutaja õiguste komplekti CPC-BSE SunoBase.
+
 ## Väljatrükid
 
 Eesti seadusandluse põhjal koostatud dokumentide kujundused on lisatud järgmistele dokumentidele:
