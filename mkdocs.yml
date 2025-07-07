@@ -59,6 +59,7 @@ plugins:
           Units: "Alternatiivsed ühikud"
           Email: "Email täiendused"
           Base: "CentralPlus"
+          EnvoiceApps: "EnvoiceApps"
 
 extra:
   alternate:
@@ -110,4 +111,5 @@ nav:
   - Email: email/email_index.en.md
   - Base: base/base_index.et.md
   - Base: base/base_index.en.md
+  - EnvoiceApps: envoice_apps/envoiceapps_index.et.md
 
