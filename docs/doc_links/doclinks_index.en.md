@@ -43,7 +43,7 @@ The solution created complements the existing option to add links to documents. 
 
 ## User permission set
 
-A user with limited rights (not SUPER) must be assigned the permission set OIX-DL SUNODOCLINKS.
+A user with limited rights (not SUPER) must be assigned the permission set CPC-DL DOCLINKMGR.
 
 ## Usage
 

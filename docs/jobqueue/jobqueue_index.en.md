@@ -2,7 +2,7 @@ Notification of job queue entries in error and too long in progress via email an
 
 ### User permissions
 
-A user with limited rights (not SUPER) must be assigned the user rights set OIX-JQ SUNOJOBQUEUE.
+A user with limited rights (not SUPER) must be assigned the user rights set CPC-JQ FAILQNOTIFIER.
 
 ### Setup
 

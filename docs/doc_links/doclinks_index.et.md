@@ -42,7 +42,7 @@ Loodud lahendus täiendab olemasolevat linkide lisamise võimalust dokumentidele
 
 ## Kasutajaõigused
 
-Kasutajale, kellel on piiratud õigused (mitte SUPER), peab määrama kasutaja õiguste komplekt OIX-DL SUNODOCLINKS.
+Kasutajale, kellel on piiratud õigused (mitte SUPER), peab määrama kasutaja õiguste komplekt CPC-DL DOCLINKMGR.
 
 ## Kasutamine
 

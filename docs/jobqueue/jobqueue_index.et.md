@@ -2,7 +2,7 @@ Tööjärjekorra kannete tõrkes ja liiga kaua töös olekus teavituste edastami
 
 ### Kasutajaõigused
 
-Kasutajale, kellel on piiratud õigused (mitte SUPER), peab määrama kasutaja õiguste komplekti OIX-JQ SUNOJOBQUEUE.
+Kasutajale, kellel on piiratud õigused (mitte SUPER), peab määrama kasutaja õiguste komplekti CPC-JQ FAILQNOTIFIER.
 
 ### Seadistamine
 

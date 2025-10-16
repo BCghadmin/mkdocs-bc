@@ -2,7 +2,7 @@ Lahendus võimaldab kaubale määrata seotud tooted (näiteks taara), mis tuleva
 
 ## Kasutajaõigused
 
-Piiratud õigustega (mitte SUPER) kasutajale vajalik määrata kasutaja õiguste komplekt OIX-RI SUNORELITEMS.
+Piiratud õigustega (mitte SUPER) kasutajale vajalik määrata kasutaja õiguste komplekt CPC-RI RELGOODSMGR.
 
 ## Seotud tooted
 
