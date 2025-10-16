@@ -6,7 +6,7 @@ Before installing the extension, the following extensions need to be added:
 
 ## User rights
 
-For a user with limited rights (not SUPER), assign the user rights set CPC-BSE SunoBase.
+For a user with limited rights (not SUPER), assign the user rights set CPC-BSE CENTRALPLUS.
 
 ## Reports
 

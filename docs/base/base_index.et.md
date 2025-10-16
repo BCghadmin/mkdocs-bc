@@ -6,7 +6,7 @@ Enne laienduse installeerimist on vaja lisada järgmised laiendused:
 
 ## Kasutajaõigused
 
-Kasutajatele, kellel on piiratud õigused (mitte SUPER), peab määrama kasutaja õiguste komplekti CPC-BSE SunoBase.
+Kasutajatele, kellel on piiratud õigused (mitte SUPER), peab määrama kasutaja õiguste komplekti CPC-BSE CENTRALPLUS.
 
 ## Väljatrükid
 
