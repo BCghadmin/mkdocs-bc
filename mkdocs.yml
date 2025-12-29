@@ -118,5 +118,6 @@ nav:
   - Attributes: attributes/attributes_index.et.md
   - Attributes: attributes/attributes_index.en.md
   - XRoad: xroad/xroad_index.et.md
+  - XRoad: xroad/xroad_index.en.md
   - EnvoiceApps: envoice_apps/envoiceapps_index.et.md
 
