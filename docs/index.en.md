@@ -23,3 +23,5 @@
 [Advanced Item Attributes](attributes/attributes_index.en.md)
 
 [XRoad](xroad/xroad_index.en.md)
+
+[DigiSign](digisign/digisign_index.en.md)

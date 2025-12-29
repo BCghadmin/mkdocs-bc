@@ -49,6 +49,7 @@ plugins:
           Base: "CentralPlus"
           Attributes: "Advanced Item Attributes"
           XRoad: "XRoad"
+          DigiSign: "DigiSign"
         et:
           extensions: "Laiendused"
           bank_link: "Baltic Bank Connect"
@@ -119,5 +120,6 @@ nav:
   - Attributes: attributes/attributes_index.en.md
   - XRoad: xroad/xroad_index.et.md
   - XRoad: xroad/xroad_index.en.md
+  - DigiSign: digisign/digisign_index.en.md
   - EnvoiceApps: envoice_apps/envoiceapps_index.et.md
 
