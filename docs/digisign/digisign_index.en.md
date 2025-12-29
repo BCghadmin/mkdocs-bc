@@ -35,7 +35,7 @@ In the Signing Container Documents section, you can download (Download) or view 
 
 ![][7]
 
-In the \"Signing Container Signers\" section, you can add (New Line) and remove signers (Delete Line) and sign (Sign).
+In the "Signing Container Signers" section, you can add (New Line) and remove signers (Delete Line) and sign (Sign).
 
 Possible statuses during signing:
 
