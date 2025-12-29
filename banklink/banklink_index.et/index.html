@@ -1,0 +1,1115 @@
+
+<!doctype html>
+<html lang="et" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="../../lursoft/lursoft_index.et/">
+      
+      
+        
+          <link rel="alternate" href="./" hreflang="et">
+        
+          <link rel="alternate" href="../banklink_index.en/" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Baltic Bank Connect - OIXIO Digital Business Central Applications Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pangaga-gateway-otsekanali-lepingu-solmimine" class="md-skip">
+          Keri sisuni
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Päis">
+    <a href="../.." title="OIXIO Digital Business Central Applications Documentation" class="md-header__button md-logo" aria-label="OIXIO Digital Business Central Applications Documentation" data-md-component="logo">
+      
+  <img src="../../assets/oixio_Digital_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OIXIO Digital Business Central Applications Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Baltic Bank Connect
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Vali keel">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="et" class="md-select__link">
+              Eesti keel
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../banklink_index.en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Otsi" placeholder="Otsi" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Otsing">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Lähtesta" aria-label="Lähtesta" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Otsingu lähtestamine
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigatsioon" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="OIXIO Digital Business Central Applications Documentation" class="md-nav__button md-logo" aria-label="OIXIO Digital Business Central Applications Documentation" data-md-component="logo">
+      
+  <img src="../../assets/oixio_Digital_logo.png" alt="logo">
+
+    </a>
+    OIXIO Digital Business Central Applications Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baltic Bank Connect
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baltic Bank Connect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Sisukord">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Sisukord
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pangaga-gateway-otsekanali-lepingu-solmimine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pangaga gateway otsekanali lepingu sõlmimine
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pangaga gateway otsekanali lepingu sõlmimine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#swedbank" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Swedbank
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lhv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LHV
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SEB
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coop-pank" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        COOP Pank
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#turvasertifikaat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Turvasertifikaat
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pangaliidese-seadistamine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pangaliidese seadistamine
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pangaliidese seadistamine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seadistamine-kasutades-juhendatud-seadistust" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seadistamine kasutades juhendatud seadistust
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manuaalne-pangaliidese-seadistamine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manuaalne pangaliidese seadistamine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pangakonto-seadistus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pangakonto seadistus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#toojarjekorra-kanded" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tööjärjekorra kanded
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maksete-eksportimine-panka" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maksete eksportimine panka
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pangavaljavotte-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pangaväljavõtte import
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pangaväljavõtte import">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kasitsi-importimine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Käsitsi importimine
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pangavaljavotte-automaatne-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pangaväljavõtte automaatne import
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lursoft/lursoft_index.et/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lursoft
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc_links/doclinks_index.et/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DocLink Manager
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itemref/itemref_index.et/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Smart Item Codes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../jobqueue/jobqueue_index.et/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Failed Queue Notifier
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ee/sunoee_index.et/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reference Manager
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../relitems/relitems_index.et/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Related Goods Manager
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../units/units_index.et/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alternative Units
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../email/email_index.et/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Enhanced Email
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base/base_index.et/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CentralPlus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../attributes/attributes_index.et/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advanced Item Attributes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xroad/xroad_index.et/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    XRoad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../digisign/digisign_index.en/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DigiSign (English)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Baltic Bank Connect</h1>
+
+<ul>
+<li class="i18n-link i18n-link-found i18n-link-en"><a href="../../banklink/banklink_index.en/">English</a></li>
+</ul>
+<h2 id="pangaga-gateway-otsekanali-lepingu-solmimine">Pangaga gateway otsekanali lepingu sõlmimine</h2>
+<p>Business Centralis pangaliidese kasutamiseks on vajalik oma pangas sõlmida <em>gateway</em> otsekanali leping ning tellida sertifikaat. Sertifikaadi tellimise juhise saadab pank pärast lepingu sõlmimist. Sertifikaadi faili formaat peab olema .p12 parooliga kaitstud.</p>
+<h3 id="swedbank">Swedbank</h3>
+<p><a href="https://www.swedbank.ee/business/d2d/ebanking/gateway">https://www.swedbank.ee/business/d2d/ebanking/gateway</a></p>
+<p>Toetatud teenused:</p>
+<ul>
+<li>
+<p>Maksete edastamine panka (allkirjastamata maksed)</p>
+</li>
+<li>
+<p>Konto väljavõte - automaatselt päritav eelmise päeva väljavõte</p>
+</li>
+<li>
+<p>Jooksva päeva kontoväljavõtte päring</p>
+</li>
+</ul>
+<h3 id="lhv">LHV</h3>
+<p><a href="https://www.lhv.ee/et/connect">https://www.lhv.ee/et/connect</a></p>
+<p>Toetatud teenused:</p>
+<ul>
+<li>
+<p>Maksete edastamine panka (allkirjastamata maksed)</p>
+</li>
+<li>
+<p>Konto väljavõte - automaatselt päritav eelmise päeva väljavõte</p>
+</li>
+</ul>
+<h3 id="seb">SEB</h3>
+<p><a href="https://www.seb.ee/ariklient/igapaevapangandus/elektroonilised-kanalid/baltic-gateway">https://www.seb.ee/ariklient/igapaevapangandus/elektroonilised-kanalid/baltic-gateway</a></p>
+<p>Toetatud teenused:</p>
+<ul>
+<li>
+<p>Maksete edastamine panka (allkirjastamata maksed)</p>
+</li>
+<li>
+<p>Jooksva päeva kontoväljavõtte päring (tööjärjekorra kanne tuleb seadistada piisava sagedusega, et päeva lõpust ei jääks mõni tehing pangast pärimata)</p>
+</li>
+</ul>
+<h3 id="coop-pank">COOP Pank</h3>
+<p><a href="https://www.cooppank.ee/gateway">https://www.cooppank.ee/gateway</a></p>
+<p>Toetatud teenused:</p>
+<ul>
+<li>
+<p>Maksete edastamine panka (allkirjastamata maksed)</p>
+</li>
+<li>
+<p>Konto väljavõte - automaatselt päritav eelmise päeva väljavõte</p>
+</li>
+</ul>
+<h3 id="turvasertifikaat">Turvasertifikaat</h3>
+<p>Business Centralis tuleb pangaliidese kasutamiseks seadistada turvasertifikaat. Pärast lepingu sõlmimist saadab pank teile juhiseid sertifikaadi tellimiseks. Tegemist on tehniliste sammudega, mistõttu soovitame abi paluda oma IT osakonnast või pöörduda oma BC partneri poole, kes teid abistab.</p>
+<p>Vajalik on:</p>
+<ul>
+<li>
+<p>Sertifikaadipäringu koostamine, sertifikaadi tellimiseks.</p>
+</li>
+<li>
+<p>Sertifikaadi- ja privaatvõtmefaili liitmine pfx/p12 failiks ja parooli genereerimine.</p>
+</li>
+<li>
+<p>pfx/p12 faili ja parooli seadistamine BC-s.</p>
+</li>
+</ul>
+<p>Swedbank juhend:
+<a href="http://dev.swedbankgateway.net/content/general-info/doc/How-to-generate-CSR-and-convert-private-key-to-p12.pdf">http://dev.swedbankgateway.net/content/general-info/doc/How-to-generate-CSR-and-convert-private-key-to-p12.pdf</a>
+<a href="https://www.swedbank.com/openbanking/swedbank-gateway-go-live.html">https://www.swedbank.com/openbanking/swedbank-gateway-go-live.html</a></p>
+<p>LHV juhend:
+<a href="https://partners.lhv.ee/en/connect/#certificates">https://partners.lhv.ee/en/connect/#certificates</a></p>
+<p>SEB juhend:
+<a href="https://developer.baltics.sebgroup.com/bgw/documentation/authentication">https://developer.baltics.sebgroup.com/bgw/documentation/authentication</a></p>
+<p>Coop Pank juhend:
+<a href="https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf">https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf</a></p>
+<h2 id="pangaliidese-seadistamine">Pangaliidese seadistamine</h2>
+<h3 id="seadistamine-kasutades-juhendatud-seadistust">Seadistamine kasutades juhendatud seadistust</h3>
+<p>Mine Juhendatud seadistus ning vali Set-Up OIXIO Bank Link</p>
+<p><img alt="Conf Bank Interface with Assisted setup" src="../media/image1EE.png" /></p>
+<p>Avaneb Pangaliidese seadistamine aken, kus tee vajalikud tegevused ning liigu Edasi nupu abil järgmiste sammude juurde.</p>
+<p><img alt="Assisted setup" src="../media/image2EE.png" /></p>
+<h3 id="manuaalne-pangaliidese-seadistamine">Manuaalne pangaliidese seadistamine</h3>
+<p>Ava Business Centralis Pangaliidese seaded ning vali liidestatav pank Panga kanalid blokist. Seadistatavad väljad on pankadel erinevad.</p>
+<p><img alt="Conf Bank Interface" src="../media/image3EE.png" /></p>
+<p><strong>SWED SGW</strong> puhul täida Lepingu ID, API võti (Kliendi ID), Parool väljad ning seejärel lae üles sertifikaat kasutades menüüribal nuppu Lisa sertifikaat:</p>
+<p><img alt="SWED SGW configuration example" src="../media/image4EE.png" /></p>
+<p><strong>SEB BGW</strong> puhul täida lepingu ID väli ja lisa sertifikaat.</p>
+<p><strong>LHV CONNECT</strong> puhul tuleb ainult lisada sertifikaat.</p>
+<p><strong>COOP CPGW</strong> puhul tuleb ainult lisada sertifikaat.</p>
+<h3 id="pangakonto-seadistus">Pangakonto seadistus</h3>
+<p>Ava Pangakontod loend ning ava liidestatava pangakonto kaart, täida OIXIO Pangaliides blokis Panga kanal:</p>
+<p><img alt="Bank account configuration example" src="../media/image5EE.png" /></p>
+<p>Pangakonto kaardil peavad olema täidetud järgmised väljad:</p>
+<ul>
+<li>
+<p>Maksekorralduste sõnumite numbrid</p>
+</li>
+<li>
+<p>Pangakonto konteeringurühm</p>
+</li>
+<li>
+<p>SWIFT tähis</p>
+</li>
+<li>
+<p>IBAN</p>
+</li>
+<li>
+<p>Panga väljavõtte impordi vorming</p>
+</li>
+<li>
+<p>Makse ekspordi vorming</p>
+</li>
+</ul>
+<h3 id="toojarjekorra-kanded">Tööjärjekorra kanded</h3>
+<p>Pane vastava panga tööjärjekorra kanded valmis olekusse.</p>
+<p><img alt="Queue entry example" src="../media/image6EE.png" /></p>
+<h2 id="maksete-eksportimine-panka">Maksete eksportimine panka</h2>
+<p>Maksežurnaali töölehel tuleb märkida Luba maksete eksporti, et saaks maksefaili panka saata ja Kontrolli makse staatuseid enne konteerimist, et konteerimisel toimuks kontroll, kas mõni makse on tühistatud.</p>
+<p><img alt="Payment Journal example" src="../media/image7EE.png" /></p>
+<p>Täida maksežurnaal sooritatavate maksetega kas käsitsi või soovitades makseid hankijale.</p>
+<p>Maksefaili panka saatmiseks vali menüüribalt Pank - Saada panka...</p>
+<p><img alt="Send to Bank example" src="../media/image8EE.png" /></p>
+<p>Maksed liiguvad panka kinnitamata olekus. Need tuleb pangas eraldi kinnitada ja sooritada tehingud.</p>
+<p>Pärast maksefaili panka saatmist ilmub mõne aja pärast maksežurnaali factboxi info makse oleku kohta:</p>
+<p><img alt="Payment status example" src="../media/image9EE.png" /></p>
+<p>Makse olek näitab, mis seisus makse pangas on.</p>
+<p>Võimalikud makse olekud:</p>
+<ul>
+<li>
+<p>Tagasi lükatud - makse pangas tagasi lükatud. SEB puhul tähendab Tagasi lükatud staatus, et makse impordifaili kontroll ei olnud edukas</p>
+</li>
+<li>
+<p>Ootel - ootab pangas makse kinnitamist ja sooritamist. SEB puhul tähendab Ootel staatus makse impordifaili kontrollimist</p>
+</li>
+<li>
+<p>Osaliselt kinnitatud -vähemalt üks makse on kinnitatud</p>
+</li>
+<li>
+<p>Kinnitatud - makse on kinnitatud, kuid ülekanne veel tegemata</p>
+</li>
+<li>
+<p>Teostatud - makse on sooritatud</p>
+</li>
+<li>
+<p>Aktsepteeritud koos muudatusega - tehtud mõned muudatused ja aktsepteeritud, kuid ülekanne veel tegemata</p>
+</li>
+<li>
+<p>Faili kontroll edukas - makse impordifaili kontroll edukas (SEB)</p>
+</li>
+</ul>
+<h2 id="pangavaljavotte-import">Pangaväljavõtte import</h2>
+<h3 id="kasitsi-importimine">Käsitsi importimine</h3>
+<p>Maksete sobitamise žurnaalis vali Pangaliidese maksete importimine:</p>
+<p><img alt="Import Payments example" src="../media/image10EE.png" /></p>
+<p>Avanevas aknas vali, millise panga millist väljavõtte tüüpi soovid importida:</p>
+<p><img alt="Statement type selection" src="../media/image11EE.png" /></p>
+<p><strong>Päevalõpu väljavõte</strong> - saad määrata ainult lõppkuupäeva. BC-sse päritakse kõik selleks kuupäevaks importimata pangatehingud.</p>
+<p><strong>Väljavõte</strong> - saad määrata perioodi, mille kohta pangaväljavõte päritakse BC-sse</p>
+<p><strong>Päevasisene väljavõte</strong> - päritakse BC töökuupäeva väljavõte</p>
+<p>Pärast filtrite määramist tuleb teade:</p>
+<p><img alt="Import query notification" src="../media/image12EE.png" /></p>
+<p>See tähendab, et päring on panga saadetud ja läheb natukene aega enne kui pangaväljavõte BC-sse ilmub. SEB väljavõte tekib kohe.</p>
+<h2 id="pangavaljavotte-automaatne-import">Pangaväljavõtte automaatne import</h2>
+<p>Eelmise päeva kohta automaatselt imporditava pangaväljavõtte saamiseks tuleb seadistada Tööjärjekorra kanded all automaatne töö.</p>
+<p>Mine Tööjärjekorra kanded ja vajuta Uus</p>
+<p>Täida Käivitatava objekti liik Aruanne ja Käivitatava objekti ID 24009901, Varaseim alustamise kuup/kl:</p>
+<p><img alt="Queue entry configuration example" src="../media/image13EE.png" /></p>
+<p>Varaseim alustamise kuup/kl täida sellega, millal soovid, et eelmise päeva väljavõte BC-sse päritakse.</p>
+<p>Seejärel vajuta sisse marker Aruande päringuakna valikud:</p>
+<p><img alt="Report request options example" src="../media/image14EE.png" /></p>
+<p>Avaneb sama vaade, mis maksete sobitamise žurnaalis Pangaliidese maksete importimine nupu vajutamisel.</p>
+<p>Täida Pank, mille väljavõtet automaatselt importida soovid ja Väljavõtte tüüp lahtrist vali Päevalõpu väljavõte. Algkuupäev ja Lõppkuupäev väljad jäta tühjaks.</p>
+<p><img alt="Automatic import configuration example" src="../media/image15EE.png" /></p>
+<p>Täida Korduvus blokis, mis päeviti päring teostatakse ja Minutite arv käivitamise vahel määra 1440, et kord päevas toimuks pangaväljavõtte päring:</p>
+<p><img alt="Recurrence settings example" src="../media/image16EE.png" /></p>
+<p>Iga pangakonto kohta tuleb teha eraldi tööjärjekorra kanne.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Üles
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2025 <a href="https://oixio.eu/digital/"  target="_blank" rel="noopener">OIXIO Digital AS</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/oixiodigital/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Kopeeritud", "clipboard.copy": "Kopeeri l\u00f5ikelauale", "search.result.more.one": "1 veel sellel lehel", "search.result.more.other": "# veel sellel lehel", "search.result.none": "Otsingule ei leitud \u00fchtegi vastet", "search.result.one": "Leiti \u00fcks tulemus", "search.result.other": "Leiti # tulemust", "search.result.placeholder": "Otsimiseks kirjuta siia", "search.result.term.missing": "Puudub", "select.version": "Vali versioon"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
