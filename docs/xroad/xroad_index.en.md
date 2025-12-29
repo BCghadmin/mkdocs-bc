@@ -2,7 +2,7 @@ This solution enables you to send the VAT declaration electronically to the Esto
 
 Managers of companies and institutions registered in the Estonian Business Register can join X-Road via X-Road Self-Service Portal: [X-tee iseteenindus]
 
-To use this functionality in Business Central, the service must be enabled by the Tax and Customs Board. More information: [X-tee services \| Estonian Tax and Customs Board]
+To use this functionality in Business Central, the service must be enabled by the Tax and Customs Board. More information: [\[X-tee services \| Estonian Tax and Customs Board\]](https://www.emta.ee/en/business-client/e-services-training-courses/how-use-e-services/x-tee-services)
 
 # Sending the VAT Report to the Tax and Customs Board via the X-Road Interface
 
