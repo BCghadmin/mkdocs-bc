@@ -47,6 +47,7 @@ plugins:
           Units: "Alternative Units"
           Email: "Enhanced Email"
           Base: "CentralPlus"
+          Attributes: "Advanced Item Attributes"
         et:
           extensions: "Laiendused"
           bank_link: "Pangaliides"
@@ -59,6 +60,7 @@ plugins:
           Units: "Alternatiivsed ühikud"
           Email: "Email täiendused"
           Base: "CentralPlus"
+          Attributes: "Advanced Item Attributes"
           EnvoiceApps: "EnvoiceApps"
 
 extra:
@@ -111,5 +113,7 @@ nav:
   - Email: email/email_index.en.md
   - Base: base/base_index.et.md
   - Base: base/base_index.en.md
+  - Attributes: attributes/attributes_index.et.md
+  - Attributes: attributes/attributes_index.en.md
   - EnvoiceApps: envoice_apps/envoiceapps_index.et.md
 

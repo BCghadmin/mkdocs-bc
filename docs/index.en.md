@@ -19,3 +19,5 @@
 [Alternative Units](units/units_index.en.md)
 
 [CentralPlus](base/base_index.en.md)
+
+[Advanced Item Attributes](attributes/attributes_index.en.md)

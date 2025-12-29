@@ -19,3 +19,5 @@
 [Alternatiivsed ühikud](units/units_index.et.md)
 
 [CentralPlus](base/base_index.et.md)
+
+[Advanced Item Attributes](attributes/attributes_index.et.md)
