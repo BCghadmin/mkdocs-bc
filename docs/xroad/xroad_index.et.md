@@ -1,6 +1,6 @@
-Lahendus võimaldab Dynamics 365 Business Centrali kaudu saata elektrooniliselt käibedeklaratsiooni Maksu ja Tolliametisse X-Tee kaudu.
+Lahendus võimaldab Dynamics 365 Business Centrali kaudu saata elektrooniliselt käibedeklaratsiooni ja tulu- ja sotsiaalmaksu deklaratsiooni (TSD) faili XML formaadis Maksu ja Tolliametisse X-Tee kaudu. Lahendus võimaldab küsida tagasiside failis sisalduvate vigade ja hoiatuste kohta ning kinnitada esitatud faili ja tervet deklaratsiooni.
 
-Eesti äriregistris registreeritud ettevõtete ja asutuste juhid saavad X-teega liituda läbi [X-tee iseteeninduskeskkonna].
+Teenuse kasutamiseks peab ettevõte olema liitunud X-tee'ga. Eesti äriregistris registreeritud ettevõtete ja asutuste juhid saavad X-teega liituda läbi [X-tee iseteeninduskeskkonna].
 
 Business Centralis funktsionaalsuse kasutamiseks peab teenus olema Maksu- ja Tolliameti poolt avatud - <https://www.emta.ee/ariklient/e-teenused-koolitused/e-teenuste-kasutamine/x-tee-teenused>
 
@@ -60,12 +60,6 @@ MTA-st vastuste päringu saab käivitada ka käsitsi klikkides lehel XTee sõnum
 
 
 ## TSD aruande edastamine X-tee liidese kaudu
-
-### Ülevaade
-
-Lahendus võimaldab Dynamics 365 Business Centrali kaudu saata elektrooniliselt tulu- ja sotsiaalmaksu deklaratsiooni (TSD) faili XML formaadis Maksu ja Tolliametisse X-Tee kaudu. Lahendus võimaldab küsida tagasiside failis sisalduvate vigade ja hoiatuste kohta ning kinnitada esitatud faili ja tervet deklaratsiooni.
-
-Teenuse kasutamiseks peab ettevõte olema liitunud X-tee'ga.
 
 ### X-tee seadistused
 
