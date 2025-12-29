@@ -75,21 +75,21 @@ Seadistused tehakse lehel XTee seadistus. Deklaratsioonide edastamisega seotud s
 
 ### TSD aruandefaili saatmine
 
-**TSD aruanne -\> Toimingud
+**TSD aruanne -\> Toimingud**
 
 ![][7]
 
-**TSD XML üleslaadimine** - Valmis TSD faili üleslaadimine (kuna hetkel programmis faili ei tekki, tulevikus kaob vajadus ära)
+- **TSD XML üleslaadimine** - Valmis TSD faili üleslaadimine (kuna hetkel programmis faili ei tekki, tulevikus kaob vajadus ära)
 
-**TSD faili edastamine** - TSD faili saatmine Maksuametisse läbi uploadMime teenuse.
+- **TSD faili edastamine** - TSD faili saatmine Maksuametisse läbi uploadMime teenuse.
 
-**TSD kinnitamine** - TSD kinnitamine läbi confirmTsd teenuse.
+- **TSD kinnitamine** - TSD kinnitamine läbi confirmTsd teenuse.
 
-**TSD faili või kinnituse staatuse küsimine** - faili või kinnituse staatuse küsimise teenus.
+- **TSD faili või kinnituse staatuse küsimine** - faili või kinnituse staatuse küsimise teenus.
 
-**TSD tagasiside küsimine** - TSD tagasiside küsimine läbi getTsdStatus teenuse.
+- **TSD tagasiside küsimine** - TSD tagasiside küsimine läbi getTsdStatus teenuse.
 
-**TSD sõnumilogi** - avab TSD Xtee sõnumilogi.
+- **TSD sõnumilogi** - avab TSD Xtee sõnumilogi.
 
 ### TSD XML üleslaadimine
 
@@ -103,7 +103,7 @@ Kui fail on lisatud, TSD aruande tabelis veerus „Üles laaditud XML" on „Jah
 
 Nüüd saab TSD faili edastada.
 
-**TSD faili edastamine
+### TSD faili edastamine
 
 Vali lintmenüült Toimingud - \> TSD faili edastamine. Kui fail on edastatud muutub TSD seisund „Saadetud" ja Faili ID veergu tekib maksuametist saadetud faili ID, mis on vajalik ka järgmiste päringute tegemiseks.
 
