@@ -14,7 +14,7 @@ Välja "**Esitaja isikukood**" lisada MTA-s deklaratsiooni esitamise õigust oma
 
 Selleks, et saata EMTA-sse kinnitatud KMD tuleb XTee seadistus lehel valida **KMD saadetakse kinnitatuna:**
 
-# ![Pilt, millel on kujutatud tekst, kuvatõmmis, number, Font Tehisintellekti genereeritud sisu ei pruugi olla õige.]
+![][1]
 
 ## Funktsionaalsuse kasutamine
 
@@ -24,21 +24,21 @@ Kui deklaratsiooni read on loodud ja kontrollitud, siis **Vabasta** dokument.
 
 Deklaratsiooni saatmine käivitatakse: Avaleht -\> **Saada X-Tee kaudu EMTA-sse**:
 
-![Pilt, millel on kujutatud tekst, Font, järjekord, tarkvara Tehisintellekti genereeritud sisu ei pruugi olla õige.]
+![][2]
 
 Oleku jälgimiseks on loodud väljad:
 
-- XTee logi kande nr. -- täidetakse kande numbriga peale saatmist
+- XTee logi kande nr. - täidetakse kande numbriga peale saatmist
 
-- XTee seisund -- kuvatakse seisundid:
+- XTee seisund - kuvatakse seisundid:
 
-- Saadetud -- KMD on saadetud EMTA-sse
+- Saadetud - KMD on saadetud EMTA-sse
 
-- Vastuvõetud -- BC-s kinnitamata KMD on EMTA poolt vastu võetud
+- Vastuvõetud - BC-s kinnitamata KMD on EMTA poolt vastu võetud
 
-- Kinnitatud -- BC-s kinnitatud KMD on EMTA poolt vastu võetud
+- Kinnitatud - BC-s kinnitatud KMD on EMTA poolt vastu võetud
 
-- Viga -- EMTA on KMD vigade tõttu tagasi lükanud
+- Viga - EMTA on KMD vigade tõttu tagasi lükanud
 
 Tööjärjekorra kanne „24014760 ∙**Uuenda XTee sõnumite seisundid**" pärib MTA-st vastused.
 
@@ -46,17 +46,18 @@ Tööjärjekorra kanne „24014760 ∙**Uuenda XTee sõnumite seisundid**" päri
 
 Klikkides XTee logi kande nr. väljas olevale numbrile avaneb **Xtee sõnumilogi**
 
-Saab vaadata nii Päringu- kui ka Vastussõnumeid klikkides vastavas veerus olevale Jah -le.![Pilt, millel on kujutatud tekst, kuvatõmmis, number, tarkvara Tehisintellekti genereeritud sisu ei pruugi olla õige.]
+Saab vaadata nii Päringu- kui ka Vastussõnumeid klikkides vastavas veerus olevale Jah -le.
+
+![][3]
 
 **Ava sõnumiseisundilogi** avab lehe Xtee sõnumiseisundilogi. Siin saab avada nii Päringusõnumeid kui ka Vastussõnumeid text formaadis
 
-![Pilt, millel on kujutatud tekst, Font, kuvatõmmis, järjekord Tehisintellekti genereeritud sisu ei pruugi olla õige.]
+![][4]
 
 MTA-st vastuste päringu saab käivitada ka käsitsi klikkides lehel XTee sõnumiseisundilogi „**Küsi vastust**". Kommentaar „Ootel sõnumeid ei leitud" tähendab, et kõik MTA vastussõnumid on kätte saadud.
 
-# ![Pilt, millel on kujutatud tekst, number, Font, järjekord Tehisintellekti genereeritud sisu ei pruugi olla õige.]
+![][5]
 
-# 
 
 # TSD aruande edastamine X-tee liidese kaudu
 
@@ -70,35 +71,35 @@ Teenuse kasutamiseks peab ettevõte olema liitunud X-tee'ga.
 
 Seadistused tehakse lehel XTee seadistus. Deklaratsioonide edastamisega seotud seadistused tehakse paanil „Üldine". TSD'ga seotud lisaseadistused on paanil „TSD":
 
-![A screenshot of a computer AI-generated content may be incorrect.]
+![][6]
 
 ## TSD aruandefaili saatmine
 
 ### TSD aruanne -\> Toimingud
 
-![A screenshot of a computer AI-generated content may be incorrect.][1]
+![][7]
 
-**TSD XML üleslaadimine** -- Valmis TSD faili üleslaadimine (kuna hetkel programmis faili ei tekki, tulevikus kaob vajadus ära)
+**TSD XML üleslaadimine** - Valmis TSD faili üleslaadimine (kuna hetkel programmis faili ei tekki, tulevikus kaob vajadus ära)
 
-**TSD faili edastamine** -- TSD faili saatmine Maksuametisse läbi uploadMime teenuse.
+**TSD faili edastamine** - TSD faili saatmine Maksuametisse läbi uploadMime teenuse.
 
-**TSD kinnitamine** -- TSD kinnitamine läbi confirmTsd teenuse.
+**TSD kinnitamine** - TSD kinnitamine läbi confirmTsd teenuse.
 
-**TSD faili või kinnituse staatuse küsimine** -- faili või kinnituse staatuse küsimise teenus.
+**TSD faili või kinnituse staatuse küsimine** - faili või kinnituse staatuse küsimise teenus.
 
-**TSD tagasiside küsimine** -- TSD tagasiside küsimine läbi getTsdStatus teenuse.
+**TSD tagasiside küsimine** - TSD tagasiside küsimine läbi getTsdStatus teenuse.
 
-**TSD sõnumilogi** -- avab TSD Xtee sõnumilogi.
+**TSD sõnumilogi** - avab TSD Xtee sõnumilogi.
 
 ### TSD XML üleslaadimine
 
 Avaneb aken, kus saab lisada TSD XML faili:
 
-![A screenshot of a computer error AI-generated content may be incorrect.]
+![][8]
 
 Kui fail on lisatud, TSD aruande tabelis veerus „Üles laaditud XML" on „Jah":
 
-![A screenshot of a computer AI-generated content may be incorrect.][2]
+![][9]
 
 Nüüd saab TSD faili edastada.
 
@@ -106,15 +107,15 @@ Nüüd saab TSD faili edastada.
 
 Vali lintmenüült Toimingud - \> TSD faili edastamine. Kui fail on edastatud muutub TSD seisund „Saadetud" ja Faili ID veergu tekib maksuametist saadetud faili ID, mis on vajalik ka järgmiste päringute tegemiseks.
 
-![][3]
+![][10]
 
 TSD Xtee logi:
 
-![][4]
+![][11]
 
 Kui faili ID ei tulnud, siis TSD staatus on „Viga". Põhjus on tehnilist laadi ja ei puuduta faili sisu.
 
-![A close up of a screen AI-generated content may be incorrect.]
+![][12]
 
 Vaata üle, kas vajalikud X-tee seadistused on olemas või võta ühendust lahenduse administraatoriga.
 
@@ -126,21 +127,21 @@ Vali lintmenüült Toimingud - \> TSD kinnitamine.
 
 Kui kinnitamis saatmine õnnestus, TSD seisund on „Kinnitatud", TSD Xtee sõnumilogi:
 
-![][5]
+![][13]
 
 Kui kinnitamist ei toimunud, on seisund „ Viga", TSD Xtee sõnumilogis näeb vea kirjeldust:
 
-![][6]
+![][14]
 
 ### TSD faili või kinnituse staatuse küsimine
 
 Päringuga küsitakse faili või kinnituse staatust, kas fail/kinnitus ootab töötlemist, töödeldud või viga töötlemisel.
 
-![A screenshot of a computer AI-generated content may be incorrect.][7]
+![][15]
 
 Kinnitatud deklaratsioon:
 
-![A screenshot of a computer AI-generated content may be incorrect.][8]
+![][16]
 
 ### TSD tagasiside küsimine
 
@@ -148,34 +149,34 @@ Päringut teostatakse, siis, kui faili seisund on „Töödeldud", et selgitada 
 
 Kui failis on vigu, seisund on „Viga" ja veerus tagasiside vead näeb nende arvu.
 
-![A close up of a screen AI-generated content may be incorrect.][9]
+![][17]
 
 Klõpsates vigade arvul, avaneb tabel TSD tagasiside vead, kust näeb millisel TSD lisal, milliste isikute ridadega on probleeme. Veatüübid:
 
-ERROR -- viga, maksukohustust ei saa õigesti välja arvutada, deklaratsiooni ei saa kinnitada;
+ERROR - viga, maksukohustust ei saa õigesti välja arvutada, deklaratsiooni ei saa kinnitada;
 
-WARNING -- hoiatus, ennetav teade, deklaratsiooni on võimalik ära kinnitada.
+WARNING - hoiatus, ennetav teade, deklaratsiooni on võimalik ära kinnitada.
 
-![A screenshot of a computer AI-generated content may be incorrect.][10]
+![][18]
 
 Kui failis/deklaratsioonis vigu ei esine, saab seda ära kinnitada.
 
   [X-tee iseteeninduskeskkonna]: https://x-tee.ee/
-  [Pilt, millel on kujutatud tekst, kuvatõmmis, number, Font Tehisintellekti genereeritud sisu ei pruugi olla õige.]: ./media/image1.png {width="6.270833333333333in" height="2.5208333333333335in"}
-  [Pilt, millel on kujutatud tekst, Font, järjekord, tarkvara Tehisintellekti genereeritud sisu ei pruugi olla õige.]: ./media/image2.png {width="5.927083333333333in" height="1.8541666666666667in"}
-  [Pilt, millel on kujutatud tekst, kuvatõmmis, number, tarkvara Tehisintellekti genereeritud sisu ei pruugi olla õige.]: ./media/image3.png {width="6.270833333333333in" height="3.1979166666666665in"}
-  [Pilt, millel on kujutatud tekst, Font, kuvatõmmis, järjekord Tehisintellekti genereeritud sisu ei pruugi olla õige.]: ./media/image4.png {width="6.270833333333333in" height="1.1041666666666667in"}
-  [Pilt, millel on kujutatud tekst, number, Font, järjekord Tehisintellekti genereeritud sisu ei pruugi olla õige.]: ./media/image5.png {width="6.270833333333333in" height="1.3020833333333333in"}
-  [A screenshot of a computer AI-generated content may be incorrect.]: ./media/image6.png {width="6.3in" height="3.8555555555555556in"}
-  [1]: ./media/image7.png {width="6.3in" height="1.9375in"}
-  [A screenshot of a computer error AI-generated content may be incorrect.]: ./media/image8.png {width="4.561417322834646in" height="2.58792104111986in"}
-  [2]: ./media/image9.png {width="4.274004811898513in" height="1.18332895888014in"}
-  [3]: ./media/image10.png {width="6.3in" height="0.7125in"}
-  [4]: ./media/image11.png {width="5.994343832020998in" height="0.6468755468066492in"}
-  [A close up of a screen AI-generated content may be incorrect.]: ./media/image12.png {width="4.701733377077865in" height="0.9391021434820648in"}
-  [5]: ./media/image13.png {width="6.3in" height="0.7145833333333333in"}
-  [6]: ./media/image14.png {width="6.3in" height="0.71875in"}
-  [7]: ./media/image15.png {width="6.3in" height="1.0493055555555555in"}
-  [8]: ./media/image16.png {width="6.3in" height="1.0659722222222223in"}
-  [9]: ./media/image17.png {width="6.3in" height="1.0in"}
-  [10]: ./media/image18.png {width="6.3in" height="1.1104166666666666in"}
+  [1]: ./media/image1ee.png
+  [2]: ./media/image2ee.png
+  [3]: ./media/image3ee.png
+  [4]: ./media/image4ee.png
+  [5]: ./media/image5ee.png
+  [6]: ./media/image6ee.png
+  [7]: ./media/image7ee.png
+  [8]: ./media/image8ee.png
+  [9]: ./media/image9ee.png
+  [10]: ./media/image10ee.png
+  [11]: ./media/image11ee.png
+  [12]: ./media/image12ee.png
+  [13]: ./media/image13ee.png
+  [14]: ./media/image14ee.png
+  [15]: ./media/image15ee.png
+  [16]: ./media/image16ee.png
+  [17]: ./media/image17ee.png
+  [18]: ./media/image18ee.png

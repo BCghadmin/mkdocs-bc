@@ -48,19 +48,21 @@ plugins:
           Email: "Enhanced Email"
           Base: "CentralPlus"
           Attributes: "Advanced Item Attributes"
+          XRoad: "XRoad"
         et:
           extensions: "Laiendused"
-          bank_link: "Pangaliides"
+          bank_link: "Baltic Bank Connect"
           home: "Pealeht"
-          Doc_links: "Dokumendi lingid"
-          ItemRef: "Kauba viited"
-          JobQueue: "Tööjärjekorra kannete haldus"
-          EE: "Viitenumbrite haldus"
-          RelatedItems: "Seotud tooted"
-          Units: "Alternatiivsed ühikud"
-          Email: "Email täiendused"
+          Doc_links: "DocLink Manager"
+          ItemRef: "Smart Item Codes"
+          JobQueue: "Failed Queue Notifier"
+          EE: "Reference Manager"
+          RelatedItems: "Related Goods Manager"
+          Units: "Alternative Units"
+          Email: "Enhanced Email"
           Base: "CentralPlus"
           Attributes: "Advanced Item Attributes"
+          XRoad: "XRoad"
           EnvoiceApps: "EnvoiceApps"
 
 extra:
@@ -115,5 +117,6 @@ nav:
   - Base: base/base_index.en.md
   - Attributes: attributes/attributes_index.et.md
   - Attributes: attributes/attributes_index.en.md
+  - XRoad: xroad/xroad_index.et.md
   - EnvoiceApps: envoice_apps/envoiceapps_index.et.md
 
