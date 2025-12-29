@@ -7,9 +7,9 @@ Business Centralis funktsionaalsuse kasutamiseks peab teenus olema Maksu- ja Tol
 ## KMD aruande saatmine Maksuametisse X-tee liidese kaudu
 ### Seadistus
 
-Lehel **XTee seadistus** saab üles laadida sertifikaadi: Toiminigud \> Lae sertifikaat üles. Sertifikaadi parool sisestada väljale Parool ja vajutada ENTER.
+Lehel **XTee seadistus** saab üles laadida sertifikaadi: Toiminigud -\> Lae sertifikaat üles. Sertifikaadi parool sisestada väljale Parool ja vajutada ENTER.
 
-Välja "**Esitaja isikukood**" lisada MTA-s deklaratsiooni esitamise õigust omava kasutaja isikukood.
+Välja **Esitaja isikukood** lisada MTA-s deklaratsiooni esitamise õigust omava kasutaja isikukood.
 
 Selleks, et saata EMTA-sse kinnitatud KMD tuleb XTee seadistus lehel valida **KMD saadetakse kinnitatuna:**
 
@@ -39,7 +39,7 @@ Oleku jälgimiseks on loodud väljad:
 
 - Viga - EMTA on KMD vigade tõttu tagasi lükanud
 
-Tööjärjekorra kanne „24014760 ∙**Uuenda XTee sõnumite seisundid**" pärib MTA-st vastused.
+Tööjärjekorra kanne 24014760 **Uuenda XTee sõnumite seisundid** pärib MTA-st vastused.
 
 ### Sõnumilogid
 
@@ -49,11 +49,11 @@ Saab vaadata nii Päringu- kui ka Vastussõnumeid klikkides vastavas veerus olev
 
 ![][3]
 
-**Ava sõnumiseisundilogi** avab lehe Xtee sõnumiseisundilogi. Siin saab avada nii Päringusõnumeid kui ka Vastussõnumeid text formaadis
+**Ava sõnumiseisundilogi** avab lehe Xtee sõnumiseisundilogi. Siin saab avada nii Päringusõnumeid kui ka Vastussõnumeid text formaadis.
 
 ![][4]
 
-MTA-st vastuste päringu saab käivitada ka käsitsi klikkides lehel XTee sõnumiseisundilogi „**Küsi vastust**". Kommentaar „Ootel sõnumeid ei leitud" tähendab, et kõik MTA vastussõnumid on kätte saadud.
+MTA-st vastuste päringu saab käivitada ka käsitsi klikkides lehel XTee sõnumiseisundilogi **Küsi vastust**. Kommentaar "Ootel sõnumeid ei leitud" tähendab, et kõik MTA vastussõnumid on kätte saadud.
 
 ![][5]
 
@@ -69,7 +69,7 @@ Teenuse kasutamiseks peab ettevõte olema liitunud X-tee'ga.
 
 ### X-tee seadistused
 
-Seadistused tehakse lehel XTee seadistus. Deklaratsioonide edastamisega seotud seadistused tehakse paanil „Üldine". TSD'ga seotud lisaseadistused on paanil „TSD":
+Seadistused tehakse lehel XTee seadistus. Deklaratsioonide edastamisega seotud seadistused tehakse paanil "Üldine". TSD'ga seotud lisaseadistused on paanil "TSD":
 
 ![][6]
 
@@ -97,7 +97,7 @@ Avaneb aken, kus saab lisada TSD XML faili:
 
 ![][8]
 
-Kui fail on lisatud, TSD aruande tabelis veerus „Üles laaditud XML" on „Jah":
+Kui fail on lisatud, TSD aruande tabelis veerus "Üles laaditud XML" on "Jah":
 
 ![][9]
 
@@ -105,7 +105,7 @@ Nüüd saab TSD faili edastada.
 
 ### TSD faili edastamine
 
-Vali lintmenüült Toimingud - \> TSD faili edastamine. Kui fail on edastatud muutub TSD seisund „Saadetud" ja Faili ID veergu tekib maksuametist saadetud faili ID, mis on vajalik ka järgmiste päringute tegemiseks.
+Vali lintmenüült Toimingud -\> TSD faili edastamine. Kui fail on edastatud muutub TSD seisund "Saadetud" ja Faili ID veergu tekib maksuametist saadetud faili ID, mis on vajalik ka järgmiste päringute tegemiseks.
 
 ![][10]
 
@@ -113,23 +113,23 @@ TSD Xtee logi:
 
 ![][11]
 
-Kui faili ID ei tulnud, siis TSD staatus on „Viga". Põhjus on tehnilist laadi ja ei puuduta faili sisu.
+Kui faili ID ei tulnud, siis TSD staatus on "Viga". Põhjus on tehnilist laadi ja ei puuduta faili sisu.
 
 ![][12]
 
 Vaata üle, kas vajalikud X-tee seadistused on olemas või võta ühendust lahenduse administraatoriga.
 
-**TSD kinnitamine
+### TSD kinnitamine
 
 Saab valida, kas toimub terve TSD või ainult üles laaditud faili kinnitamine. Terve TSD kinnitamine eeldab, et kõik TSD lisad on ootusepäraselt täidetud.
 
-Vali lintmenüült Toimingud - \> TSD kinnitamine.
+Vali lintmenüült Toimingud -\> TSD kinnitamine.
 
-Kui kinnitamis saatmine õnnestus, TSD seisund on „Kinnitatud", TSD Xtee sõnumilogi:
+Kui kinnitamis saatmine õnnestus, TSD seisund on "Kinnitatud", TSD Xtee sõnumilogi:
 
 ![][13]
 
-Kui kinnitamist ei toimunud, on seisund „ Viga", TSD Xtee sõnumilogis näeb vea kirjeldust:
+Kui kinnitamist ei toimunud, on seisund "Viga", TSD Xtee sõnumilogis näeb vea kirjeldust:
 
 ![][14]
 
@@ -145,9 +145,9 @@ Kinnitatud deklaratsioon:
 
 ### TSD tagasiside küsimine
 
-Päringut teostatakse, siis, kui faili seisund on „Töödeldud", et selgitada välja, kas failis oli vigu/hoiatusi.
+Päringut teostatakse, siis, kui faili seisund on "Töödeldud", et selgitada välja, kas failis oli vigu/hoiatusi.
 
-Kui failis on vigu, seisund on „Viga" ja veerus tagasiside vead näeb nende arvu.
+Kui failis on vigu, seisund on "Viga" ja veerus tagasiside vead näeb nende arvu.
 
 ![][17]
 
