@@ -1,11 +1,10 @@
-## KMD aruande saatmine Maksuametisse X-tee liidese kaudu
-
 Lahendus võimaldab Dynamics 365 Business Centrali kaudu saata elektrooniliselt käibedeklaratsiooni Maksu ja Tolliametisse X-Tee kaudu.
 
 Eesti äriregistris registreeritud ettevõtete ja asutuste juhid saavad X-teega liituda läbi [X-tee iseteeninduskeskkonna].
 
 Business Centralis funktsionaalsuse kasutamiseks peab teenus olema Maksu- ja Tolliameti poolt avatud - <https://www.emta.ee/ariklient/e-teenused-koolitused/e-teenuste-kasutamine/x-tee-teenused>
 
+## KMD aruande saatmine Maksuametisse X-tee liidese kaudu
 ### Seadistus
 
 Lehel **XTee seadistus** saab üles laadida sertifikaadi: Toiminigud \> Lae sertifikaat üles. Sertifikaadi parool sisestada väljale Parool ja vajutada ENTER.
