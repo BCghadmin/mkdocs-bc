@@ -1,4 +1,4 @@
-# KMD aruande saatmine Maksuametisse X-tee liidese kaudu
+## KMD aruande saatmine Maksuametisse X-tee liidese kaudu
 
 Lahendus võimaldab Dynamics 365 Business Centrali kaudu saata elektrooniliselt käibedeklaratsiooni Maksu ja Tolliametisse X-Tee kaudu.
 
@@ -6,7 +6,7 @@ Eesti äriregistris registreeritud ettevõtete ja asutuste juhid saavad X-teega 
 
 Business Centralis funktsionaalsuse kasutamiseks peab teenus olema Maksu- ja Tolliameti poolt avatud - <https://www.emta.ee/ariklient/e-teenused-koolitused/e-teenuste-kasutamine/x-tee-teenused>
 
-## Seadistus
+### Seadistus
 
 Lehel **XTee seadistus** saab üles laadida sertifikaadi: Toiminigud \> Lae sertifikaat üles. Sertifikaadi parool sisestada väljale Parool ja vajutada ENTER.
 
@@ -16,7 +16,7 @@ Selleks, et saata EMTA-sse kinnitatud KMD tuleb XTee seadistus lehel valida **KM
 
 ![][1]
 
-## Funktsionaalsuse kasutamine
+### Funktsionaalsuse kasutamine
 
 KMD moodustatakse vastavalt Eesti lokalisatsioonile lehel **KM tagastused (KMD).**
 
@@ -42,7 +42,7 @@ Oleku jälgimiseks on loodud väljad:
 
 Tööjärjekorra kanne „24014760 ∙**Uuenda XTee sõnumite seisundid**" pärib MTA-st vastused.
 
-## Sõnumilogid
+### Sõnumilogid
 
 Klikkides XTee logi kande nr. väljas olevale numbrile avaneb **Xtee sõnumilogi**
 
@@ -59,23 +59,24 @@ MTA-st vastuste päringu saab käivitada ka käsitsi klikkides lehel XTee sõnum
 ![][5]
 
 
-# TSD aruande edastamine X-tee liidese kaudu
 
-## Ülevaade
+## TSD aruande edastamine X-tee liidese kaudu
+
+### Ülevaade
 
 Lahendus võimaldab Dynamics 365 Business Centrali kaudu saata elektrooniliselt tulu- ja sotsiaalmaksu deklaratsiooni (TSD) faili XML formaadis Maksu ja Tolliametisse X-Tee kaudu. Lahendus võimaldab küsida tagasiside failis sisalduvate vigade ja hoiatuste kohta ning kinnitada esitatud faili ja tervet deklaratsiooni.
 
 Teenuse kasutamiseks peab ettevõte olema liitunud X-tee'ga.
 
-## X-tee seadistused
+### X-tee seadistused
 
 Seadistused tehakse lehel XTee seadistus. Deklaratsioonide edastamisega seotud seadistused tehakse paanil „Üldine". TSD'ga seotud lisaseadistused on paanil „TSD":
 
 ![][6]
 
-## TSD aruandefaili saatmine
+### TSD aruandefaili saatmine
 
-### TSD aruanne -\> Toimingud
+**TSD aruanne -\> Toimingud
 
 ![][7]
 
@@ -103,7 +104,7 @@ Kui fail on lisatud, TSD aruande tabelis veerus „Üles laaditud XML" on „Jah
 
 Nüüd saab TSD faili edastada.
 
-### TSD faili edastamine
+**TSD faili edastamine
 
 Vali lintmenüült Toimingud - \> TSD faili edastamine. Kui fail on edastatud muutub TSD seisund „Saadetud" ja Faili ID veergu tekib maksuametist saadetud faili ID, mis on vajalik ka järgmiste päringute tegemiseks.
 
@@ -119,7 +120,7 @@ Kui faili ID ei tulnud, siis TSD staatus on „Viga". Põhjus on tehnilist laadi
 
 Vaata üle, kas vajalikud X-tee seadistused on olemas või võta ühendust lahenduse administraatoriga.
 
-### TSD kinnitamine
+**TSD kinnitamine
 
 Saab valida, kas toimub terve TSD või ainult üles laaditud faili kinnitamine. Terve TSD kinnitamine eeldab, et kõik TSD lisad on ootusepäraselt täidetud.
 
